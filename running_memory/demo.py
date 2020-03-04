@@ -13,7 +13,7 @@ import os
 import time
 import keyboard as k
 import json
-from ideal import Timer, TimerFactory
+from time_util import Timer, TimerFactory
 
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
