@@ -1,0 +1,64 @@
+10.4179 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+11.5205 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x131d8c860>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x132d7d320>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.5206 	EXP 	window1: recordFrameIntervals = False
+11.6834 	EXP 	window1: recordFrameIntervals = True
+11.8685 	EXP 	window1: recordFrameIntervals = False
+13.5911 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Welcome!', units='height', win=Window(...), wrapWidth=1)
+13.6517 	EXP 	Created show_condition_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='show_condition_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.6724 	EXP 	instructions_text: autoDraw = True
+14.1487 	DATA 	Keypress: space
+14.2562 	EXP 	Imported csvs/noise_conditions.csv as conditions, 4 conditions, 1 params
+14.2636 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+14.2641 	EXP 	New trial (rep=0, index=0): OrderedDict([('condition', 3)])
+14.2679 	EXP 	Imported csvs/condition_3_wlists_indices.csv as conditions, 8 conditions, 1 params
+14.2682 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+14.2684 	EXP 	New trial (rep=0, index=0): OrderedDict([('wlist_index', 29)])
+14.2763 	EXP 	Imported csvs/29.csv as conditions, 10 conditions, 1 params
+14.2768 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+14.2770 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'patio')])
+14.3029 	EXP 	instructions_text: autoDraw = False
+14.3029 	EXP 	show_condition_text: text = 'patio'
+14.3029 	EXP 	show_condition_text: autoDraw = True
+17.2871 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'docs')])
+17.3034 	EXP 	show_condition_text: autoDraw = False
+17.3034 	EXP 	show_condition_text: text = 'docs'
+17.3034 	EXP 	show_condition_text: autoDraw = True
+20.3035 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'plugin')])
+20.3226 	EXP 	show_condition_text: autoDraw = False
+20.3226 	EXP 	show_condition_text: text = 'plugin'
+20.3226 	EXP 	show_condition_text: autoDraw = True
+21.2910 	DATA 	Keypress: escape
+21.3059 	DATA 	Keypress: quoteleft
+21.8265 	EXP 	window1: mouseVisible = True
+6.4250 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+7.1194 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x131e9d860>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x132cce320>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.1194 	EXP 	window1: recordFrameIntervals = False
+7.2854 	EXP 	window1: recordFrameIntervals = True
+7.4406 	WARNING 	t of last frame was 21.81ms (=1/45)
+7.6190 	EXP 	window1: recordFrameIntervals = False
+8.1065 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Welcome!', units='height', win=Window(...), wrapWidth=1)
+8.1753 	EXP 	Created show_condition_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='show_condition_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.2019 	EXP 	instructions_text: autoDraw = True
+8.5251 	EXP 	Imported csvs/noise_conditions.csv as conditions, 4 conditions, 1 params
+8.5254 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+8.5257 	EXP 	New trial (rep=0, index=0): OrderedDict([('condition', 2)])
+8.5287 	EXP 	Imported csvs/condition_2_wlists_indices.csv as conditions, 8 conditions, 1 params
+8.5291 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+8.5293 	EXP 	New trial (rep=0, index=0): OrderedDict([('wlist_index', 26)])
+8.5321 	EXP 	Imported csvs/26.csv as conditions, 5 conditions, 1 params
+8.5324 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+8.5325 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'peace')])
+8.5527 	DATA 	Keypress: space
+8.5679 	EXP 	instructions_text: autoDraw = False
+8.5679 	EXP 	show_condition_text: text = 'peace'
+8.5679 	EXP 	show_condition_text: autoDraw = True
+11.5405 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'portable')])
+11.5590 	EXP 	show_condition_text: autoDraw = False
+11.5590 	EXP 	show_condition_text: text = 'portable'
+11.5590 	EXP 	show_condition_text: autoDraw = True
+14.5578 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'wholesale')])
+14.5906 	EXP 	show_condition_text: autoDraw = False
+14.5906 	EXP 	show_condition_text: text = 'wholesale'
+14.5906 	EXP 	show_condition_text: autoDraw = True
+16.0588 	DATA 	Keypress: escape
+16.4605 	EXP 	window1: mouseVisible = True

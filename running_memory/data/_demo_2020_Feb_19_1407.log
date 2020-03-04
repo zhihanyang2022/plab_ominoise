@@ -1,0 +1,3049 @@
+11.2923 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+12.8448 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x131b8f898>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13336eb70>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.8448 	EXP 	window1: recordFrameIntervals = False
+13.0098 	EXP 	window1: recordFrameIntervals = True
+13.1940 	EXP 	window1: recordFrameIntervals = False
+13.6845 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Welcome!', units='height', win=Window(...), wrapWidth=1)
+13.7270 	EXP 	Created show_condition_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='show_condition_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.7598 	EXP 	instructions_text: autoDraw = True
+15.3446 	EXP 	Imported csvs/noise_conditions.csv as conditions, 4 conditions, 1 params
+15.3574 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+15.3579 	EXP 	New trial (rep=0, index=0): OrderedDict([('condition', 4)])
+15.3619 	EXP 	Imported csvs/condition_4_wlists_indices.csv as conditions, 8 conditions, 1 params
+15.3622 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+15.3624 	EXP 	New trial (rep=0, index=0): OrderedDict([('wlist_index', 14)])
+15.3710 	EXP 	Imported csvs/14.csv as conditions, 9 conditions, 1 params
+15.3714 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+15.3716 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'hardly')])
+15.4208 	DATA 	Keypress: space
+15.4326 	EXP 	instructions_text: autoDraw = False
+15.4326 	EXP 	show_condition_text: text = 'hardly'
+15.4326 	EXP 	show_condition_text: autoDraw = True
+15.4331 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'ranch')])
+15.4500 	EXP 	show_condition_text: autoDraw = False
+15.4500 	EXP 	show_condition_text: text = 'ranch'
+15.4500 	EXP 	show_condition_text: autoDraw = True
+15.4504 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'ho')])
+15.4644 	EXP 	show_condition_text: autoDraw = False
+15.4644 	EXP 	show_condition_text: text = 'ho'
+15.4644 	EXP 	show_condition_text: autoDraw = True
+15.4648 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'breast')])
+15.4963 	EXP 	show_condition_text: autoDraw = False
+15.4963 	EXP 	show_condition_text: text = 'breast'
+15.4963 	EXP 	show_condition_text: autoDraw = True
+15.4967 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'handles')])
+15.5133 	EXP 	show_condition_text: autoDraw = False
+15.5133 	EXP 	show_condition_text: text = 'handles'
+15.5133 	EXP 	show_condition_text: autoDraw = True
+15.5138 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'surround')])
+15.5302 	EXP 	show_condition_text: autoDraw = False
+15.5302 	EXP 	show_condition_text: text = 'surround'
+15.5302 	EXP 	show_condition_text: autoDraw = True
+15.5308 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'debt')])
+15.5463 	EXP 	show_condition_text: autoDraw = False
+15.5463 	EXP 	show_condition_text: text = 'debt'
+15.5463 	EXP 	show_condition_text: autoDraw = True
+15.5467 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'rights')])
+15.5671 	EXP 	show_condition_text: autoDraw = False
+15.5671 	EXP 	show_condition_text: text = 'rights'
+15.5671 	EXP 	show_condition_text: autoDraw = True
+15.5675 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'bangladesh')])
+15.5960 	EXP 	show_condition_text: autoDraw = False
+15.5960 	EXP 	show_condition_text: text = 'bangladesh'
+15.5960 	EXP 	show_condition_text: autoDraw = True
+15.6136 	EXP 	show_condition_text: autoDraw = False
+15.6136 	EXP 	show_condition_text: text = '****'
+15.6136 	EXP 	show_condition_text: autoDraw = True
+15.6304 	EXP 	show_condition_text: text = '****'
+15.6304 	EXP 	show_condition_text: autoDraw = True
+15.6468 	EXP 	show_condition_text: text = '****'
+15.6468 	EXP 	show_condition_text: autoDraw = True
+15.6637 	EXP 	show_condition_text: text = '****'
+15.6637 	EXP 	show_condition_text: autoDraw = True
+15.6802 	EXP 	show_condition_text: text = '****'
+15.6802 	EXP 	show_condition_text: autoDraw = True
+15.6966 	EXP 	show_condition_text: text = '****'
+15.6966 	EXP 	show_condition_text: autoDraw = True
+15.7135 	EXP 	show_condition_text: text = '****'
+15.7135 	EXP 	show_condition_text: autoDraw = True
+15.7295 	EXP 	show_condition_text: text = '****'
+15.7295 	EXP 	show_condition_text: autoDraw = True
+15.7468 	EXP 	show_condition_text: text = '****'
+15.7468 	EXP 	show_condition_text: autoDraw = True
+15.7637 	EXP 	show_condition_text: text = '****'
+15.7637 	EXP 	show_condition_text: autoDraw = True
+15.7794 	EXP 	show_condition_text: text = '****'
+15.7794 	EXP 	show_condition_text: autoDraw = True
+15.7967 	EXP 	show_condition_text: text = '****'
+15.7967 	EXP 	show_condition_text: autoDraw = True
+15.8135 	EXP 	show_condition_text: text = '****'
+15.8135 	EXP 	show_condition_text: autoDraw = True
+15.8297 	EXP 	show_condition_text: text = '****'
+15.8297 	EXP 	show_condition_text: autoDraw = True
+15.8468 	EXP 	show_condition_text: text = '****'
+15.8468 	EXP 	show_condition_text: autoDraw = True
+15.8632 	EXP 	show_condition_text: text = '****'
+15.8632 	EXP 	show_condition_text: autoDraw = True
+15.8803 	EXP 	show_condition_text: text = '****'
+15.8803 	EXP 	show_condition_text: autoDraw = True
+15.8961 	EXP 	show_condition_text: text = '****'
+15.8961 	EXP 	show_condition_text: autoDraw = True
+15.9136 	EXP 	show_condition_text: text = '****'
+15.9136 	EXP 	show_condition_text: autoDraw = True
+15.9303 	EXP 	show_condition_text: text = '****'
+15.9303 	EXP 	show_condition_text: autoDraw = True
+15.9470 	EXP 	show_condition_text: text = '****'
+15.9470 	EXP 	show_condition_text: autoDraw = True
+15.9632 	EXP 	show_condition_text: text = '****'
+15.9632 	EXP 	show_condition_text: autoDraw = True
+15.9798 	EXP 	show_condition_text: text = '****'
+15.9798 	EXP 	show_condition_text: autoDraw = True
+15.9968 	EXP 	show_condition_text: text = '****'
+15.9968 	EXP 	show_condition_text: autoDraw = True
+16.0130 	EXP 	show_condition_text: text = '****'
+16.0130 	EXP 	show_condition_text: autoDraw = True
+16.0300 	EXP 	show_condition_text: text = '****'
+16.0300 	EXP 	show_condition_text: autoDraw = True
+16.0470 	EXP 	show_condition_text: text = '****'
+16.0470 	EXP 	show_condition_text: autoDraw = True
+16.0632 	EXP 	show_condition_text: text = '****'
+16.0632 	EXP 	show_condition_text: autoDraw = True
+16.0797 	EXP 	show_condition_text: text = '****'
+16.0797 	EXP 	show_condition_text: autoDraw = True
+16.0968 	EXP 	show_condition_text: text = '****'
+16.0968 	EXP 	show_condition_text: autoDraw = True
+16.1138 	EXP 	show_condition_text: text = '****'
+16.1138 	EXP 	show_condition_text: autoDraw = True
+16.1304 	EXP 	show_condition_text: text = '****'
+16.1304 	EXP 	show_condition_text: autoDraw = True
+16.1463 	EXP 	show_condition_text: text = '****'
+16.1463 	EXP 	show_condition_text: autoDraw = True
+16.1631 	EXP 	show_condition_text: text = '****'
+16.1631 	EXP 	show_condition_text: autoDraw = True
+16.1805 	EXP 	show_condition_text: text = '****'
+16.1805 	EXP 	show_condition_text: autoDraw = True
+16.1968 	EXP 	show_condition_text: text = '****'
+16.1968 	EXP 	show_condition_text: autoDraw = True
+16.2132 	EXP 	show_condition_text: text = '****'
+16.2132 	EXP 	show_condition_text: autoDraw = True
+16.2303 	EXP 	show_condition_text: text = '****'
+16.2303 	EXP 	show_condition_text: autoDraw = True
+16.2470 	EXP 	show_condition_text: text = '****'
+16.2470 	EXP 	show_condition_text: autoDraw = True
+16.2634 	EXP 	show_condition_text: text = '****'
+16.2634 	EXP 	show_condition_text: autoDraw = True
+16.2796 	EXP 	show_condition_text: text = '****'
+16.2796 	EXP 	show_condition_text: autoDraw = True
+16.2964 	EXP 	show_condition_text: text = '****'
+16.2964 	EXP 	show_condition_text: autoDraw = True
+16.3132 	EXP 	show_condition_text: text = '****'
+16.3132 	EXP 	show_condition_text: autoDraw = True
+16.3299 	EXP 	show_condition_text: text = '****'
+16.3299 	EXP 	show_condition_text: autoDraw = True
+16.3465 	EXP 	show_condition_text: text = '****'
+16.3465 	EXP 	show_condition_text: autoDraw = True
+16.3633 	EXP 	show_condition_text: text = '****'
+16.3633 	EXP 	show_condition_text: autoDraw = True
+16.3799 	EXP 	show_condition_text: text = '****'
+16.3799 	EXP 	show_condition_text: autoDraw = True
+16.3972 	EXP 	show_condition_text: text = '****'
+16.3972 	EXP 	show_condition_text: autoDraw = True
+16.4136 	EXP 	show_condition_text: text = '****'
+16.4136 	EXP 	show_condition_text: autoDraw = True
+16.4299 	EXP 	show_condition_text: text = '****'
+16.4299 	EXP 	show_condition_text: autoDraw = True
+16.4467 	EXP 	show_condition_text: text = '****'
+16.4467 	EXP 	show_condition_text: autoDraw = True
+16.4635 	EXP 	show_condition_text: text = '****'
+16.4635 	EXP 	show_condition_text: autoDraw = True
+16.4801 	EXP 	show_condition_text: text = '****'
+16.4801 	EXP 	show_condition_text: autoDraw = True
+16.4966 	EXP 	show_condition_text: text = '****'
+16.4966 	EXP 	show_condition_text: autoDraw = True
+16.5139 	EXP 	show_condition_text: text = '****'
+16.5139 	EXP 	show_condition_text: autoDraw = True
+16.5305 	EXP 	show_condition_text: text = '****'
+16.5305 	EXP 	show_condition_text: autoDraw = True
+16.5465 	EXP 	show_condition_text: text = '****'
+16.5465 	EXP 	show_condition_text: autoDraw = True
+16.5631 	EXP 	show_condition_text: text = '****'
+16.5631 	EXP 	show_condition_text: autoDraw = True
+16.5804 	EXP 	show_condition_text: text = '****'
+16.5804 	EXP 	show_condition_text: autoDraw = True
+16.5972 	EXP 	show_condition_text: text = '****'
+16.5972 	EXP 	show_condition_text: autoDraw = True
+16.6138 	EXP 	show_condition_text: text = '****'
+16.6138 	EXP 	show_condition_text: autoDraw = True
+16.6295 	EXP 	show_condition_text: text = '****'
+16.6295 	EXP 	show_condition_text: autoDraw = True
+16.6465 	EXP 	show_condition_text: text = '****'
+16.6465 	EXP 	show_condition_text: autoDraw = True
+16.6635 	EXP 	show_condition_text: text = '****'
+16.6635 	EXP 	show_condition_text: autoDraw = True
+16.6805 	EXP 	show_condition_text: text = '****'
+16.6805 	EXP 	show_condition_text: autoDraw = True
+16.6959 	EXP 	show_condition_text: text = '****'
+16.6959 	EXP 	show_condition_text: autoDraw = True
+16.7130 	EXP 	show_condition_text: text = '****'
+16.7130 	EXP 	show_condition_text: autoDraw = True
+16.7294 	EXP 	show_condition_text: text = '****'
+16.7294 	EXP 	show_condition_text: autoDraw = True
+16.7467 	EXP 	show_condition_text: text = '****'
+16.7467 	EXP 	show_condition_text: autoDraw = True
+16.7638 	EXP 	show_condition_text: text = '****'
+16.7638 	EXP 	show_condition_text: autoDraw = True
+16.7796 	EXP 	show_condition_text: text = '****'
+16.7796 	EXP 	show_condition_text: autoDraw = True
+16.7969 	EXP 	show_condition_text: text = '****'
+16.7969 	EXP 	show_condition_text: autoDraw = True
+16.8134 	EXP 	show_condition_text: text = '****'
+16.8134 	EXP 	show_condition_text: autoDraw = True
+16.8303 	EXP 	show_condition_text: text = '****'
+16.8303 	EXP 	show_condition_text: autoDraw = True
+16.8471 	EXP 	show_condition_text: text = '****'
+16.8471 	EXP 	show_condition_text: autoDraw = True
+16.8632 	EXP 	show_condition_text: text = '****'
+16.8632 	EXP 	show_condition_text: autoDraw = True
+16.8802 	EXP 	show_condition_text: text = '****'
+16.8802 	EXP 	show_condition_text: autoDraw = True
+16.8960 	EXP 	show_condition_text: text = '****'
+16.8960 	EXP 	show_condition_text: autoDraw = True
+16.9132 	EXP 	show_condition_text: text = '****'
+16.9132 	EXP 	show_condition_text: autoDraw = True
+16.9299 	EXP 	show_condition_text: text = '****'
+16.9299 	EXP 	show_condition_text: autoDraw = True
+16.9467 	EXP 	show_condition_text: text = '****'
+16.9467 	EXP 	show_condition_text: autoDraw = True
+16.9633 	EXP 	show_condition_text: text = '****'
+16.9633 	EXP 	show_condition_text: autoDraw = True
+16.9802 	EXP 	show_condition_text: text = '****'
+16.9802 	EXP 	show_condition_text: autoDraw = True
+16.9968 	EXP 	show_condition_text: text = '****'
+16.9968 	EXP 	show_condition_text: autoDraw = True
+17.0136 	EXP 	show_condition_text: text = '****'
+17.0136 	EXP 	show_condition_text: autoDraw = True
+17.0296 	EXP 	show_condition_text: text = '****'
+17.0296 	EXP 	show_condition_text: autoDraw = True
+17.0468 	EXP 	show_condition_text: text = '****'
+17.0468 	EXP 	show_condition_text: autoDraw = True
+17.0629 	EXP 	show_condition_text: text = '****'
+17.0629 	EXP 	show_condition_text: autoDraw = True
+17.0803 	EXP 	show_condition_text: text = '****'
+17.0803 	EXP 	show_condition_text: autoDraw = True
+17.0972 	EXP 	show_condition_text: text = '****'
+17.0972 	EXP 	show_condition_text: autoDraw = True
+17.1135 	EXP 	show_condition_text: text = '****'
+17.1135 	EXP 	show_condition_text: autoDraw = True
+17.1303 	EXP 	show_condition_text: text = '****'
+17.1303 	EXP 	show_condition_text: autoDraw = True
+17.1463 	EXP 	show_condition_text: text = '****'
+17.1463 	EXP 	show_condition_text: autoDraw = True
+17.1636 	EXP 	show_condition_text: text = '****'
+17.1636 	EXP 	show_condition_text: autoDraw = True
+17.1803 	EXP 	show_condition_text: text = '****'
+17.1803 	EXP 	show_condition_text: autoDraw = True
+17.1963 	EXP 	show_condition_text: text = '****'
+17.1963 	EXP 	show_condition_text: autoDraw = True
+17.2140 	EXP 	show_condition_text: text = '****'
+17.2140 	EXP 	show_condition_text: autoDraw = True
+17.2301 	EXP 	show_condition_text: text = '****'
+17.2301 	EXP 	show_condition_text: autoDraw = True
+17.2462 	EXP 	show_condition_text: text = '****'
+17.2462 	EXP 	show_condition_text: autoDraw = True
+17.2634 	EXP 	show_condition_text: text = '****'
+17.2634 	EXP 	show_condition_text: autoDraw = True
+17.2801 	EXP 	show_condition_text: text = '****'
+17.2801 	EXP 	show_condition_text: autoDraw = True
+17.2970 	EXP 	show_condition_text: text = '****'
+17.2970 	EXP 	show_condition_text: autoDraw = True
+17.3137 	EXP 	show_condition_text: text = '****'
+17.3137 	EXP 	show_condition_text: autoDraw = True
+17.3299 	EXP 	show_condition_text: text = '****'
+17.3299 	EXP 	show_condition_text: autoDraw = True
+17.3467 	EXP 	show_condition_text: text = '****'
+17.3467 	EXP 	show_condition_text: autoDraw = True
+17.3631 	EXP 	show_condition_text: text = '****'
+17.3631 	EXP 	show_condition_text: autoDraw = True
+17.3798 	EXP 	show_condition_text: text = '****'
+17.3798 	EXP 	show_condition_text: autoDraw = True
+17.3963 	EXP 	show_condition_text: text = '****'
+17.3963 	EXP 	show_condition_text: autoDraw = True
+17.4129 	EXP 	show_condition_text: text = '****'
+17.4129 	EXP 	show_condition_text: autoDraw = True
+17.4302 	EXP 	show_condition_text: text = '****'
+17.4302 	EXP 	show_condition_text: autoDraw = True
+17.4468 	EXP 	show_condition_text: text = '****'
+17.4468 	EXP 	show_condition_text: autoDraw = True
+17.4627 	EXP 	show_condition_text: text = '****'
+17.4627 	EXP 	show_condition_text: autoDraw = True
+17.4800 	EXP 	show_condition_text: text = '****'
+17.4800 	EXP 	show_condition_text: autoDraw = True
+17.4969 	EXP 	show_condition_text: text = '****'
+17.4969 	EXP 	show_condition_text: autoDraw = True
+17.5129 	EXP 	show_condition_text: text = '****'
+17.5129 	EXP 	show_condition_text: autoDraw = True
+17.5299 	EXP 	show_condition_text: text = '****'
+17.5299 	EXP 	show_condition_text: autoDraw = True
+17.5464 	EXP 	show_condition_text: text = '****'
+17.5464 	EXP 	show_condition_text: autoDraw = True
+17.5630 	EXP 	show_condition_text: text = '****'
+17.5630 	EXP 	show_condition_text: autoDraw = True
+17.5794 	EXP 	show_condition_text: text = '****'
+17.5794 	EXP 	show_condition_text: autoDraw = True
+17.5967 	EXP 	show_condition_text: text = '****'
+17.5967 	EXP 	show_condition_text: autoDraw = True
+17.6133 	EXP 	show_condition_text: text = '****'
+17.6133 	EXP 	show_condition_text: autoDraw = True
+17.6298 	EXP 	show_condition_text: text = '****'
+17.6298 	EXP 	show_condition_text: autoDraw = True
+17.6469 	EXP 	show_condition_text: text = '****'
+17.6469 	EXP 	show_condition_text: autoDraw = True
+17.6629 	EXP 	show_condition_text: text = '****'
+17.6629 	EXP 	show_condition_text: autoDraw = True
+17.6804 	EXP 	show_condition_text: text = '****'
+17.6804 	EXP 	show_condition_text: autoDraw = True
+17.6961 	EXP 	show_condition_text: text = '****'
+17.6961 	EXP 	show_condition_text: autoDraw = True
+17.7131 	EXP 	show_condition_text: text = '****'
+17.7131 	EXP 	show_condition_text: autoDraw = True
+17.7297 	EXP 	show_condition_text: text = '****'
+17.7297 	EXP 	show_condition_text: autoDraw = True
+17.7466 	EXP 	show_condition_text: text = '****'
+17.7466 	EXP 	show_condition_text: autoDraw = True
+17.7638 	EXP 	show_condition_text: text = '****'
+17.7638 	EXP 	show_condition_text: autoDraw = True
+17.7795 	EXP 	show_condition_text: text = '****'
+17.7795 	EXP 	show_condition_text: autoDraw = True
+17.7969 	EXP 	show_condition_text: text = '****'
+17.7969 	EXP 	show_condition_text: autoDraw = True
+17.8134 	EXP 	show_condition_text: text = '****'
+17.8134 	EXP 	show_condition_text: autoDraw = True
+17.8302 	EXP 	show_condition_text: text = '****'
+17.8302 	EXP 	show_condition_text: autoDraw = True
+17.8472 	EXP 	show_condition_text: text = '****'
+17.8472 	EXP 	show_condition_text: autoDraw = True
+17.8633 	EXP 	show_condition_text: text = '****'
+17.8633 	EXP 	show_condition_text: autoDraw = True
+17.8807 	EXP 	show_condition_text: text = '****'
+17.8807 	EXP 	show_condition_text: autoDraw = True
+17.8976 	EXP 	show_condition_text: text = '****'
+17.8976 	EXP 	show_condition_text: autoDraw = True
+17.9135 	EXP 	show_condition_text: text = '****'
+17.9135 	EXP 	show_condition_text: autoDraw = True
+17.9303 	EXP 	show_condition_text: text = '****'
+17.9303 	EXP 	show_condition_text: autoDraw = True
+17.9469 	EXP 	show_condition_text: text = '****'
+17.9469 	EXP 	show_condition_text: autoDraw = True
+17.9630 	EXP 	show_condition_text: text = '****'
+17.9630 	EXP 	show_condition_text: autoDraw = True
+17.9802 	EXP 	show_condition_text: text = '****'
+17.9802 	EXP 	show_condition_text: autoDraw = True
+17.9968 	EXP 	show_condition_text: text = '****'
+17.9968 	EXP 	show_condition_text: autoDraw = True
+18.0137 	EXP 	show_condition_text: text = '****'
+18.0137 	EXP 	show_condition_text: autoDraw = True
+18.0299 	EXP 	show_condition_text: text = '****'
+18.0299 	EXP 	show_condition_text: autoDraw = True
+18.0469 	EXP 	show_condition_text: text = '****'
+18.0469 	EXP 	show_condition_text: autoDraw = True
+18.0634 	EXP 	show_condition_text: text = '****'
+18.0634 	EXP 	show_condition_text: autoDraw = True
+18.0793 	EXP 	show_condition_text: text = '****'
+18.0793 	EXP 	show_condition_text: autoDraw = True
+18.0961 	EXP 	show_condition_text: text = '****'
+18.0961 	EXP 	show_condition_text: autoDraw = True
+18.1133 	EXP 	show_condition_text: text = '****'
+18.1133 	EXP 	show_condition_text: autoDraw = True
+18.1301 	EXP 	show_condition_text: text = '****'
+18.1301 	EXP 	show_condition_text: autoDraw = True
+18.1471 	EXP 	show_condition_text: text = '****'
+18.1471 	EXP 	show_condition_text: autoDraw = True
+18.1634 	EXP 	show_condition_text: text = '****'
+18.1634 	EXP 	show_condition_text: autoDraw = True
+18.1806 	EXP 	show_condition_text: text = '****'
+18.1806 	EXP 	show_condition_text: autoDraw = True
+18.1967 	EXP 	show_condition_text: text = '****'
+18.1967 	EXP 	show_condition_text: autoDraw = True
+18.2135 	EXP 	show_condition_text: text = '****'
+18.2135 	EXP 	show_condition_text: autoDraw = True
+18.2300 	EXP 	show_condition_text: text = '****'
+18.2300 	EXP 	show_condition_text: autoDraw = True
+18.2470 	EXP 	show_condition_text: text = '****'
+18.2470 	EXP 	show_condition_text: autoDraw = True
+18.2631 	EXP 	show_condition_text: text = '****'
+18.2631 	EXP 	show_condition_text: autoDraw = True
+18.2802 	EXP 	show_condition_text: text = '****'
+18.2802 	EXP 	show_condition_text: autoDraw = True
+18.2970 	EXP 	show_condition_text: text = '****'
+18.2970 	EXP 	show_condition_text: autoDraw = True
+18.3131 	EXP 	show_condition_text: text = '****'
+18.3131 	EXP 	show_condition_text: autoDraw = True
+18.3296 	EXP 	show_condition_text: text = '****'
+18.3296 	EXP 	show_condition_text: autoDraw = True
+18.3470 	EXP 	show_condition_text: text = '****'
+18.3470 	EXP 	show_condition_text: autoDraw = True
+18.3632 	EXP 	show_condition_text: text = '****'
+18.3632 	EXP 	show_condition_text: autoDraw = True
+18.3805 	EXP 	show_condition_text: text = '****'
+18.3805 	EXP 	show_condition_text: autoDraw = True
+18.3970 	EXP 	show_condition_text: text = '****'
+18.3970 	EXP 	show_condition_text: autoDraw = True
+18.4135 	EXP 	show_condition_text: text = '****'
+18.4135 	EXP 	show_condition_text: autoDraw = True
+18.4301 	EXP 	show_condition_text: text = '****'
+18.4301 	EXP 	show_condition_text: autoDraw = True
+18.4469 	EXP 	show_condition_text: text = '****'
+18.4469 	EXP 	show_condition_text: autoDraw = True
+18.4630 	EXP 	show_condition_text: text = '****'
+18.4630 	EXP 	show_condition_text: autoDraw = True
+18.4806 	EXP 	show_condition_text: text = '****'
+18.4806 	EXP 	show_condition_text: autoDraw = True
+18.4962 	EXP 	show_condition_text: text = '****'
+18.4962 	EXP 	show_condition_text: autoDraw = True
+18.5130 	EXP 	show_condition_text: text = '****'
+18.5130 	EXP 	show_condition_text: autoDraw = True
+18.5297 	EXP 	show_condition_text: text = '****'
+18.5297 	EXP 	show_condition_text: autoDraw = True
+18.5470 	EXP 	show_condition_text: text = '****'
+18.5470 	EXP 	show_condition_text: autoDraw = True
+18.5634 	EXP 	show_condition_text: text = '****'
+18.5634 	EXP 	show_condition_text: autoDraw = True
+18.5805 	EXP 	show_condition_text: text = '****'
+18.5805 	EXP 	show_condition_text: autoDraw = True
+18.5967 	EXP 	show_condition_text: text = '****'
+18.5967 	EXP 	show_condition_text: autoDraw = True
+18.6138 	EXP 	show_condition_text: text = '****'
+18.6138 	EXP 	show_condition_text: autoDraw = True
+18.6294 	EXP 	show_condition_text: text = '****'
+18.6294 	EXP 	show_condition_text: autoDraw = True
+18.6469 	EXP 	show_condition_text: text = '****'
+18.6469 	EXP 	show_condition_text: autoDraw = True
+18.6626 	EXP 	show_condition_text: text = '****'
+18.6626 	EXP 	show_condition_text: autoDraw = True
+18.6803 	EXP 	show_condition_text: text = '****'
+18.6803 	EXP 	show_condition_text: autoDraw = True
+18.6968 	EXP 	show_condition_text: text = '****'
+18.6968 	EXP 	show_condition_text: autoDraw = True
+18.7136 	EXP 	show_condition_text: text = '****'
+18.7136 	EXP 	show_condition_text: autoDraw = True
+18.7300 	EXP 	show_condition_text: text = '****'
+18.7300 	EXP 	show_condition_text: autoDraw = True
+18.7462 	EXP 	show_condition_text: text = '****'
+18.7462 	EXP 	show_condition_text: autoDraw = True
+18.7638 	EXP 	show_condition_text: text = '****'
+18.7638 	EXP 	show_condition_text: autoDraw = True
+18.7800 	EXP 	show_condition_text: text = '****'
+18.7800 	EXP 	show_condition_text: autoDraw = True
+18.7961 	EXP 	show_condition_text: text = '****'
+18.7961 	EXP 	show_condition_text: autoDraw = True
+18.8128 	EXP 	show_condition_text: text = '****'
+18.8128 	EXP 	show_condition_text: autoDraw = True
+18.8301 	EXP 	show_condition_text: text = '****'
+18.8301 	EXP 	show_condition_text: autoDraw = True
+18.8470 	EXP 	show_condition_text: text = '****'
+18.8470 	EXP 	show_condition_text: autoDraw = True
+18.8634 	EXP 	show_condition_text: text = '****'
+18.8634 	EXP 	show_condition_text: autoDraw = True
+18.8799 	EXP 	show_condition_text: text = '****'
+18.8799 	EXP 	show_condition_text: autoDraw = True
+18.8970 	EXP 	show_condition_text: text = '****'
+18.8970 	EXP 	show_condition_text: autoDraw = True
+18.9138 	EXP 	show_condition_text: text = '****'
+18.9138 	EXP 	show_condition_text: autoDraw = True
+18.9302 	EXP 	show_condition_text: text = '****'
+18.9302 	EXP 	show_condition_text: autoDraw = True
+18.9472 	EXP 	show_condition_text: text = '****'
+18.9472 	EXP 	show_condition_text: autoDraw = True
+18.9634 	EXP 	show_condition_text: text = '****'
+18.9634 	EXP 	show_condition_text: autoDraw = True
+18.9798 	EXP 	show_condition_text: text = '****'
+18.9798 	EXP 	show_condition_text: autoDraw = True
+18.9969 	EXP 	show_condition_text: text = '****'
+18.9969 	EXP 	show_condition_text: autoDraw = True
+19.0134 	EXP 	show_condition_text: text = '****'
+19.0134 	EXP 	show_condition_text: autoDraw = True
+19.0307 	EXP 	show_condition_text: text = '****'
+19.0307 	EXP 	show_condition_text: autoDraw = True
+19.0468 	EXP 	show_condition_text: text = '****'
+19.0468 	EXP 	show_condition_text: autoDraw = True
+19.0635 	EXP 	show_condition_text: text = '****'
+19.0635 	EXP 	show_condition_text: autoDraw = True
+19.0665 	DATA 	Keypress: space
+19.0801 	EXP 	show_condition_text: text = '****'
+19.0801 	EXP 	show_condition_text: autoDraw = True
+19.0964 	EXP 	show_condition_text: text = '****'
+19.0964 	EXP 	show_condition_text: autoDraw = True
+19.1135 	EXP 	show_condition_text: text = '****'
+19.1135 	EXP 	show_condition_text: autoDraw = True
+19.1303 	EXP 	show_condition_text: text = '****'
+19.1303 	EXP 	show_condition_text: autoDraw = True
+19.1466 	EXP 	show_condition_text: text = '****'
+19.1466 	EXP 	show_condition_text: autoDraw = True
+19.1640 	EXP 	New trial (rep=0, index=1): OrderedDict([('wlist_index', 18)])
+19.1677 	EXP 	Imported csvs/18.csv as conditions, 9 conditions, 1 params
+19.1681 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+19.1683 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'nominated')])
+19.1969 	EXP 	show_condition_text: text = 'nominated'
+19.1969 	EXP 	show_condition_text: autoDraw = True
+19.1974 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'longer')])
+19.2139 	EXP 	show_condition_text: autoDraw = False
+19.2139 	EXP 	show_condition_text: text = 'longer'
+19.2139 	EXP 	show_condition_text: autoDraw = True
+19.2144 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'stan')])
+19.2306 	EXP 	show_condition_text: autoDraw = False
+19.2306 	EXP 	show_condition_text: text = 'stan'
+19.2306 	EXP 	show_condition_text: autoDraw = True
+19.2310 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'nicaragua')])
+19.2490 	EXP 	show_condition_text: autoDraw = False
+19.2490 	EXP 	show_condition_text: text = 'nicaragua'
+19.2490 	EXP 	show_condition_text: autoDraw = True
+19.2494 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'cardiff')])
+19.2656 	EXP 	show_condition_text: autoDraw = False
+19.2656 	EXP 	show_condition_text: text = 'cardiff'
+19.2656 	EXP 	show_condition_text: autoDraw = True
+19.2661 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'geographical')])
+19.2965 	EXP 	show_condition_text: autoDraw = False
+19.2965 	EXP 	show_condition_text: text = 'geographical'
+19.2965 	EXP 	show_condition_text: autoDraw = True
+19.2972 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'present')])
+19.3149 	EXP 	show_condition_text: autoDraw = False
+19.3149 	EXP 	show_condition_text: text = 'present'
+19.3149 	EXP 	show_condition_text: autoDraw = True
+19.3154 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'bosnia')])
+19.3338 	EXP 	show_condition_text: autoDraw = False
+19.3338 	EXP 	show_condition_text: text = 'bosnia'
+19.3338 	EXP 	show_condition_text: autoDraw = True
+19.3343 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'jaguar')])
+19.3635 	EXP 	show_condition_text: autoDraw = False
+19.3635 	EXP 	show_condition_text: text = 'jaguar'
+19.3635 	EXP 	show_condition_text: autoDraw = True
+19.3802 	EXP 	show_condition_text: autoDraw = False
+19.3802 	EXP 	show_condition_text: text = '****'
+19.3802 	EXP 	show_condition_text: autoDraw = True
+19.3969 	EXP 	show_condition_text: text = '****'
+19.3969 	EXP 	show_condition_text: autoDraw = True
+19.4138 	EXP 	show_condition_text: text = '****'
+19.4138 	EXP 	show_condition_text: autoDraw = True
+19.4300 	EXP 	show_condition_text: text = '****'
+19.4300 	EXP 	show_condition_text: autoDraw = True
+19.4466 	EXP 	show_condition_text: text = '****'
+19.4466 	EXP 	show_condition_text: autoDraw = True
+19.4633 	EXP 	show_condition_text: text = '****'
+19.4633 	EXP 	show_condition_text: autoDraw = True
+19.4797 	EXP 	show_condition_text: text = '****'
+19.4797 	EXP 	show_condition_text: autoDraw = True
+19.4966 	EXP 	show_condition_text: text = '****'
+19.4966 	EXP 	show_condition_text: autoDraw = True
+19.5134 	EXP 	show_condition_text: text = '****'
+19.5134 	EXP 	show_condition_text: autoDraw = True
+19.5297 	EXP 	show_condition_text: text = '****'
+19.5297 	EXP 	show_condition_text: autoDraw = True
+19.5467 	EXP 	show_condition_text: text = '****'
+19.5467 	EXP 	show_condition_text: autoDraw = True
+19.5632 	EXP 	show_condition_text: text = '****'
+19.5632 	EXP 	show_condition_text: autoDraw = True
+19.5799 	EXP 	show_condition_text: text = '****'
+19.5799 	EXP 	show_condition_text: autoDraw = True
+19.5970 	EXP 	show_condition_text: text = '****'
+19.5970 	EXP 	show_condition_text: autoDraw = True
+19.6128 	EXP 	show_condition_text: text = '****'
+19.6128 	EXP 	show_condition_text: autoDraw = True
+19.6301 	EXP 	show_condition_text: text = '****'
+19.6301 	EXP 	show_condition_text: autoDraw = True
+19.6470 	EXP 	show_condition_text: text = '****'
+19.6470 	EXP 	show_condition_text: autoDraw = True
+19.6636 	EXP 	show_condition_text: text = '****'
+19.6636 	EXP 	show_condition_text: autoDraw = True
+19.6810 	EXP 	show_condition_text: text = '****'
+19.6810 	EXP 	show_condition_text: autoDraw = True
+19.6961 	EXP 	show_condition_text: text = '****'
+19.6961 	EXP 	show_condition_text: autoDraw = True
+19.7129 	EXP 	show_condition_text: text = '****'
+19.7129 	EXP 	show_condition_text: autoDraw = True
+19.7301 	EXP 	show_condition_text: text = '****'
+19.7301 	EXP 	show_condition_text: autoDraw = True
+19.7467 	EXP 	show_condition_text: text = '****'
+19.7467 	EXP 	show_condition_text: autoDraw = True
+19.7634 	EXP 	show_condition_text: text = '****'
+19.7634 	EXP 	show_condition_text: autoDraw = True
+19.7797 	EXP 	show_condition_text: text = '****'
+19.7797 	EXP 	show_condition_text: autoDraw = True
+19.7967 	EXP 	show_condition_text: text = '****'
+19.7967 	EXP 	show_condition_text: autoDraw = True
+19.8131 	EXP 	show_condition_text: text = '****'
+19.8131 	EXP 	show_condition_text: autoDraw = True
+19.8299 	EXP 	show_condition_text: text = '****'
+19.8299 	EXP 	show_condition_text: autoDraw = True
+19.8465 	EXP 	show_condition_text: text = '****'
+19.8465 	EXP 	show_condition_text: autoDraw = True
+19.8635 	EXP 	show_condition_text: text = '****'
+19.8635 	EXP 	show_condition_text: autoDraw = True
+19.8800 	EXP 	show_condition_text: text = '****'
+19.8800 	EXP 	show_condition_text: autoDraw = True
+19.8969 	EXP 	show_condition_text: text = '****'
+19.8969 	EXP 	show_condition_text: autoDraw = True
+19.9131 	EXP 	show_condition_text: text = '****'
+19.9131 	EXP 	show_condition_text: autoDraw = True
+19.9294 	EXP 	show_condition_text: text = '****'
+19.9294 	EXP 	show_condition_text: autoDraw = True
+19.9467 	EXP 	show_condition_text: text = '****'
+19.9467 	EXP 	show_condition_text: autoDraw = True
+19.9634 	EXP 	show_condition_text: text = '****'
+19.9634 	EXP 	show_condition_text: autoDraw = True
+19.9800 	EXP 	show_condition_text: text = '****'
+19.9800 	EXP 	show_condition_text: autoDraw = True
+19.9970 	EXP 	show_condition_text: text = '****'
+19.9970 	EXP 	show_condition_text: autoDraw = True
+20.0132 	EXP 	show_condition_text: text = '****'
+20.0132 	EXP 	show_condition_text: autoDraw = True
+20.0306 	EXP 	show_condition_text: text = '****'
+20.0306 	EXP 	show_condition_text: autoDraw = True
+20.0461 	EXP 	show_condition_text: text = '****'
+20.0461 	EXP 	show_condition_text: autoDraw = True
+20.0486 	DATA 	Keypress: space
+20.0640 	EXP 	show_condition_text: text = '****'
+20.0640 	EXP 	show_condition_text: autoDraw = True
+20.0797 	EXP 	show_condition_text: text = '****'
+20.0797 	EXP 	show_condition_text: autoDraw = True
+20.0971 	EXP 	show_condition_text: text = '****'
+20.0971 	EXP 	show_condition_text: autoDraw = True
+20.1133 	EXP 	show_condition_text: text = '****'
+20.1133 	EXP 	show_condition_text: autoDraw = True
+20.1306 	EXP 	New trial (rep=0, index=2): OrderedDict([('wlist_index', 5)])
+20.1344 	EXP 	Imported csvs/5.csv as conditions, 7 conditions, 1 params
+20.1347 	EXP 	Created sequence: random, trialTypes=7, nReps=1, seed=None
+20.1349 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'specialties')])
+20.1637 	EXP 	show_condition_text: text = 'specialties'
+20.1637 	EXP 	show_condition_text: autoDraw = True
+20.1643 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'access')])
+20.1800 	EXP 	show_condition_text: autoDraw = False
+20.1800 	EXP 	show_condition_text: text = 'access'
+20.1800 	EXP 	show_condition_text: autoDraw = True
+20.1807 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'physics')])
+20.1992 	EXP 	show_condition_text: autoDraw = False
+20.1992 	EXP 	show_condition_text: text = 'physics'
+20.1992 	EXP 	show_condition_text: autoDraw = True
+20.1996 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'mediterranean')])
+20.2297 	EXP 	show_condition_text: autoDraw = False
+20.2297 	EXP 	show_condition_text: text = 'mediterranean'
+20.2297 	EXP 	show_condition_text: autoDraw = True
+20.2302 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'typically')])
+20.2467 	EXP 	show_condition_text: autoDraw = False
+20.2467 	EXP 	show_condition_text: text = 'typically'
+20.2467 	EXP 	show_condition_text: autoDraw = True
+20.2472 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'acceptance')])
+20.2641 	EXP 	show_condition_text: autoDraw = False
+20.2641 	EXP 	show_condition_text: text = 'acceptance'
+20.2641 	EXP 	show_condition_text: autoDraw = True
+20.2647 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'charitable')])
+20.2835 	EXP 	show_condition_text: autoDraw = False
+20.2835 	EXP 	show_condition_text: text = 'charitable'
+20.2835 	EXP 	show_condition_text: autoDraw = True
+20.2980 	EXP 	show_condition_text: autoDraw = False
+20.2980 	EXP 	show_condition_text: text = '****'
+20.2980 	EXP 	show_condition_text: autoDraw = True
+20.3137 	EXP 	show_condition_text: text = '****'
+20.3137 	EXP 	show_condition_text: autoDraw = True
+20.3305 	EXP 	show_condition_text: text = '****'
+20.3305 	EXP 	show_condition_text: autoDraw = True
+20.3467 	EXP 	show_condition_text: text = '****'
+20.3467 	EXP 	show_condition_text: autoDraw = True
+20.3635 	EXP 	show_condition_text: text = '****'
+20.3635 	EXP 	show_condition_text: autoDraw = True
+20.3799 	EXP 	show_condition_text: text = '****'
+20.3799 	EXP 	show_condition_text: autoDraw = True
+20.3969 	EXP 	show_condition_text: text = '****'
+20.3969 	EXP 	show_condition_text: autoDraw = True
+20.4135 	EXP 	show_condition_text: text = '****'
+20.4135 	EXP 	show_condition_text: autoDraw = True
+20.4300 	EXP 	show_condition_text: text = '****'
+20.4300 	EXP 	show_condition_text: autoDraw = True
+20.4469 	EXP 	show_condition_text: text = '****'
+20.4469 	EXP 	show_condition_text: autoDraw = True
+20.4628 	EXP 	show_condition_text: text = '****'
+20.4628 	EXP 	show_condition_text: autoDraw = True
+20.4803 	EXP 	show_condition_text: text = '****'
+20.4803 	EXP 	show_condition_text: autoDraw = True
+20.4969 	EXP 	show_condition_text: text = '****'
+20.4969 	EXP 	show_condition_text: autoDraw = True
+20.5135 	EXP 	show_condition_text: text = '****'
+20.5135 	EXP 	show_condition_text: autoDraw = True
+20.5300 	EXP 	show_condition_text: text = '****'
+20.5300 	EXP 	show_condition_text: autoDraw = True
+20.5468 	EXP 	show_condition_text: text = '****'
+20.5468 	EXP 	show_condition_text: autoDraw = True
+20.5630 	EXP 	show_condition_text: text = '****'
+20.5630 	EXP 	show_condition_text: autoDraw = True
+20.5801 	EXP 	show_condition_text: text = '****'
+20.5801 	EXP 	show_condition_text: autoDraw = True
+20.5960 	EXP 	show_condition_text: text = '****'
+20.5960 	EXP 	show_condition_text: autoDraw = True
+20.6132 	EXP 	show_condition_text: text = '****'
+20.6132 	EXP 	show_condition_text: autoDraw = True
+20.6304 	EXP 	show_condition_text: text = '****'
+20.6304 	EXP 	show_condition_text: autoDraw = True
+20.6470 	EXP 	show_condition_text: text = '****'
+20.6470 	EXP 	show_condition_text: autoDraw = True
+20.6627 	EXP 	show_condition_text: text = '****'
+20.6627 	EXP 	show_condition_text: autoDraw = True
+20.6797 	EXP 	show_condition_text: text = '****'
+20.6797 	EXP 	show_condition_text: autoDraw = True
+20.6966 	EXP 	show_condition_text: text = '****'
+20.6966 	EXP 	show_condition_text: autoDraw = True
+20.7132 	EXP 	show_condition_text: text = '****'
+20.7132 	EXP 	show_condition_text: autoDraw = True
+20.7301 	EXP 	show_condition_text: text = '****'
+20.7301 	EXP 	show_condition_text: autoDraw = True
+20.7469 	EXP 	show_condition_text: text = '****'
+20.7469 	EXP 	show_condition_text: autoDraw = True
+20.7635 	EXP 	show_condition_text: text = '****'
+20.7635 	EXP 	show_condition_text: autoDraw = True
+20.7799 	EXP 	show_condition_text: text = '****'
+20.7799 	EXP 	show_condition_text: autoDraw = True
+20.7967 	EXP 	show_condition_text: text = '****'
+20.7967 	EXP 	show_condition_text: autoDraw = True
+20.8129 	EXP 	show_condition_text: text = '****'
+20.8129 	EXP 	show_condition_text: autoDraw = True
+20.8303 	EXP 	show_condition_text: text = '****'
+20.8303 	EXP 	show_condition_text: autoDraw = True
+20.8465 	EXP 	show_condition_text: text = '****'
+20.8465 	EXP 	show_condition_text: autoDraw = True
+20.8633 	EXP 	show_condition_text: text = '****'
+20.8633 	EXP 	show_condition_text: autoDraw = True
+20.8802 	EXP 	show_condition_text: text = '****'
+20.8802 	EXP 	show_condition_text: autoDraw = True
+20.8960 	EXP 	show_condition_text: text = '****'
+20.8960 	EXP 	show_condition_text: autoDraw = True
+20.9126 	EXP 	show_condition_text: text = '****'
+20.9126 	EXP 	show_condition_text: autoDraw = True
+20.9303 	EXP 	show_condition_text: text = '****'
+20.9303 	EXP 	show_condition_text: autoDraw = True
+20.9328 	DATA 	Keypress: space
+20.9465 	EXP 	show_condition_text: text = '****'
+20.9465 	EXP 	show_condition_text: autoDraw = True
+20.9632 	EXP 	show_condition_text: text = '****'
+20.9632 	EXP 	show_condition_text: autoDraw = True
+20.9807 	EXP 	show_condition_text: text = '****'
+20.9807 	EXP 	show_condition_text: autoDraw = True
+20.9965 	EXP 	show_condition_text: text = '****'
+20.9965 	EXP 	show_condition_text: autoDraw = True
+21.0131 	EXP 	show_condition_text: text = '****'
+21.0131 	EXP 	show_condition_text: autoDraw = True
+21.0301 	EXP 	show_condition_text: text = '****'
+21.0301 	EXP 	show_condition_text: autoDraw = True
+21.0464 	EXP 	New trial (rep=0, index=3): OrderedDict([('wlist_index', 7)])
+21.0494 	EXP 	Imported csvs/7.csv as conditions, 9 conditions, 1 params
+21.0497 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+21.0499 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'directors')])
+21.0668 	EXP 	show_condition_text: text = 'directors'
+21.0668 	EXP 	show_condition_text: autoDraw = True
+21.0674 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'enquiry')])
+21.0958 	EXP 	show_condition_text: autoDraw = False
+21.0958 	EXP 	show_condition_text: text = 'enquiry'
+21.0958 	EXP 	show_condition_text: autoDraw = True
+21.0963 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'wallet')])
+21.1127 	EXP 	show_condition_text: autoDraw = False
+21.1127 	EXP 	show_condition_text: text = 'wallet'
+21.1127 	EXP 	show_condition_text: autoDraw = True
+21.1131 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'dick')])
+21.1302 	EXP 	show_condition_text: autoDraw = False
+21.1302 	EXP 	show_condition_text: text = 'dick'
+21.1302 	EXP 	show_condition_text: autoDraw = True
+21.1306 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'nottingham')])
+21.1478 	EXP 	show_condition_text: autoDraw = False
+21.1478 	EXP 	show_condition_text: text = 'nottingham'
+21.1478 	EXP 	show_condition_text: autoDraw = True
+21.1482 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'secure')])
+21.1634 	EXP 	show_condition_text: autoDraw = False
+21.1634 	EXP 	show_condition_text: text = 'secure'
+21.1634 	EXP 	show_condition_text: autoDraw = True
+21.1638 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'actual')])
+21.1794 	EXP 	show_condition_text: autoDraw = False
+21.1794 	EXP 	show_condition_text: text = 'actual'
+21.1794 	EXP 	show_condition_text: autoDraw = True
+21.1799 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'self')])
+21.1973 	EXP 	show_condition_text: autoDraw = False
+21.1973 	EXP 	show_condition_text: text = 'self'
+21.1973 	EXP 	show_condition_text: autoDraw = True
+21.1977 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'bubble')])
+21.2139 	EXP 	show_condition_text: autoDraw = False
+21.2139 	EXP 	show_condition_text: text = 'bubble'
+21.2139 	EXP 	show_condition_text: autoDraw = True
+21.2293 	EXP 	show_condition_text: autoDraw = False
+21.2293 	EXP 	show_condition_text: text = '****'
+21.2293 	EXP 	show_condition_text: autoDraw = True
+21.2470 	EXP 	show_condition_text: text = '****'
+21.2470 	EXP 	show_condition_text: autoDraw = True
+21.2638 	EXP 	show_condition_text: text = '****'
+21.2638 	EXP 	show_condition_text: autoDraw = True
+21.2799 	EXP 	show_condition_text: text = '****'
+21.2799 	EXP 	show_condition_text: autoDraw = True
+21.2965 	EXP 	show_condition_text: text = '****'
+21.2965 	EXP 	show_condition_text: autoDraw = True
+21.3132 	EXP 	show_condition_text: text = '****'
+21.3132 	EXP 	show_condition_text: autoDraw = True
+21.3302 	EXP 	show_condition_text: text = '****'
+21.3302 	EXP 	show_condition_text: autoDraw = True
+21.3470 	EXP 	show_condition_text: text = '****'
+21.3470 	EXP 	show_condition_text: autoDraw = True
+21.3627 	EXP 	show_condition_text: text = '****'
+21.3627 	EXP 	show_condition_text: autoDraw = True
+21.3796 	EXP 	show_condition_text: text = '****'
+21.3796 	EXP 	show_condition_text: autoDraw = True
+21.3968 	EXP 	show_condition_text: text = '****'
+21.3968 	EXP 	show_condition_text: autoDraw = True
+21.4133 	EXP 	show_condition_text: text = '****'
+21.4133 	EXP 	show_condition_text: autoDraw = True
+21.4302 	EXP 	show_condition_text: text = '****'
+21.4302 	EXP 	show_condition_text: autoDraw = True
+21.4469 	EXP 	show_condition_text: text = '****'
+21.4469 	EXP 	show_condition_text: autoDraw = True
+21.4634 	EXP 	show_condition_text: text = '****'
+21.4634 	EXP 	show_condition_text: autoDraw = True
+21.4797 	EXP 	show_condition_text: text = '****'
+21.4797 	EXP 	show_condition_text: autoDraw = True
+21.4963 	EXP 	show_condition_text: text = '****'
+21.4963 	EXP 	show_condition_text: autoDraw = True
+21.5132 	EXP 	show_condition_text: text = '****'
+21.5132 	EXP 	show_condition_text: autoDraw = True
+21.5161 	DATA 	Keypress: space
+21.5296 	EXP 	show_condition_text: text = '****'
+21.5296 	EXP 	show_condition_text: autoDraw = True
+21.5466 	EXP 	show_condition_text: text = '****'
+21.5466 	EXP 	show_condition_text: autoDraw = True
+21.5638 	EXP 	show_condition_text: text = '****'
+21.5638 	EXP 	show_condition_text: autoDraw = True
+21.5801 	EXP 	show_condition_text: text = '****'
+21.5801 	EXP 	show_condition_text: autoDraw = True
+21.5959 	EXP 	show_condition_text: text = '****'
+21.5959 	EXP 	show_condition_text: autoDraw = True
+21.6139 	EXP 	New trial (rep=0, index=4): OrderedDict([('wlist_index', 24)])
+21.6174 	EXP 	Imported csvs/24.csv as conditions, 8 conditions, 1 params
+21.6177 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+21.6178 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'albany')])
+21.6339 	EXP 	show_condition_text: text = 'albany'
+21.6339 	EXP 	show_condition_text: autoDraw = True
+21.6343 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'general')])
+21.6500 	EXP 	show_condition_text: autoDraw = False
+21.6500 	EXP 	show_condition_text: text = 'general'
+21.6500 	EXP 	show_condition_text: autoDraw = True
+21.6505 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'grab')])
+21.6665 	EXP 	show_condition_text: autoDraw = False
+21.6665 	EXP 	show_condition_text: text = 'grab'
+21.6665 	EXP 	show_condition_text: autoDraw = True
+21.6670 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'everyone')])
+21.6850 	EXP 	show_condition_text: autoDraw = False
+21.6850 	EXP 	show_condition_text: text = 'everyone'
+21.6850 	EXP 	show_condition_text: autoDraw = True
+21.6857 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'bit')])
+21.7133 	EXP 	show_condition_text: autoDraw = False
+21.7133 	EXP 	show_condition_text: text = 'bit'
+21.7133 	EXP 	show_condition_text: autoDraw = True
+21.7138 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'technologies')])
+21.7330 	EXP 	show_condition_text: autoDraw = False
+21.7330 	EXP 	show_condition_text: text = 'technologies'
+21.7330 	EXP 	show_condition_text: autoDraw = True
+21.7334 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'listening')])
+21.7635 	EXP 	show_condition_text: autoDraw = False
+21.7635 	EXP 	show_condition_text: text = 'listening'
+21.7635 	EXP 	show_condition_text: autoDraw = True
+21.7640 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'cabinets')])
+21.7832 	EXP 	show_condition_text: autoDraw = False
+21.7832 	EXP 	show_condition_text: text = 'cabinets'
+21.7832 	EXP 	show_condition_text: autoDraw = True
+21.7990 	EXP 	show_condition_text: autoDraw = False
+21.7990 	EXP 	show_condition_text: text = '****'
+21.7990 	EXP 	show_condition_text: autoDraw = True
+21.8124 	EXP 	show_condition_text: text = '****'
+21.8124 	EXP 	show_condition_text: autoDraw = True
+21.8299 	EXP 	show_condition_text: text = '****'
+21.8299 	EXP 	show_condition_text: autoDraw = True
+21.8462 	EXP 	show_condition_text: text = '****'
+21.8462 	EXP 	show_condition_text: autoDraw = True
+21.8492 	DATA 	Keypress: space
+21.8636 	EXP 	show_condition_text: text = '****'
+21.8636 	EXP 	show_condition_text: autoDraw = True
+21.8801 	EXP 	show_condition_text: text = '****'
+21.8801 	EXP 	show_condition_text: autoDraw = True
+21.8962 	EXP 	show_condition_text: text = '****'
+21.8962 	EXP 	show_condition_text: autoDraw = True
+21.9142 	EXP 	New trial (rep=0, index=5): OrderedDict([('wlist_index', 4)])
+21.9173 	EXP 	Imported csvs/4.csv as conditions, 11 conditions, 1 params
+21.9177 	EXP 	Created sequence: random, trialTypes=11, nReps=1, seed=None
+21.9179 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'technology')])
+21.9350 	EXP 	show_condition_text: text = 'technology'
+21.9350 	EXP 	show_condition_text: autoDraw = True
+21.9355 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'groups')])
+21.9637 	EXP 	show_condition_text: autoDraw = False
+21.9637 	EXP 	show_condition_text: text = 'groups'
+21.9637 	EXP 	show_condition_text: autoDraw = True
+21.9644 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'aka')])
+21.9804 	EXP 	show_condition_text: autoDraw = False
+21.9804 	EXP 	show_condition_text: text = 'aka'
+21.9804 	EXP 	show_condition_text: autoDraw = True
+21.9809 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'southampton')])
+21.9995 	EXP 	show_condition_text: autoDraw = False
+21.9995 	EXP 	show_condition_text: text = 'southampton'
+21.9995 	EXP 	show_condition_text: autoDraw = True
+22.0000 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'interim')])
+22.0077 	DATA 	Keypress: space
+22.0303 	EXP 	show_condition_text: autoDraw = False
+22.0303 	EXP 	show_condition_text: text = 'interim'
+22.0303 	EXP 	show_condition_text: autoDraw = True
+22.0309 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'phantom')])
+22.0474 	EXP 	show_condition_text: autoDraw = False
+22.0474 	EXP 	show_condition_text: text = 'phantom'
+22.0474 	EXP 	show_condition_text: autoDraw = True
+22.0479 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'always')])
+22.0641 	EXP 	show_condition_text: autoDraw = False
+22.0641 	EXP 	show_condition_text: text = 'always'
+22.0641 	EXP 	show_condition_text: autoDraw = True
+22.0644 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'famous')])
+22.0812 	EXP 	show_condition_text: autoDraw = False
+22.0812 	EXP 	show_condition_text: text = 'famous'
+22.0812 	EXP 	show_condition_text: autoDraw = True
+22.0817 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'knows')])
+22.0993 	EXP 	show_condition_text: autoDraw = False
+22.0993 	EXP 	show_condition_text: text = 'knows'
+22.0993 	EXP 	show_condition_text: autoDraw = True
+22.0997 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'merit')])
+22.1160 	EXP 	show_condition_text: autoDraw = False
+22.1160 	EXP 	show_condition_text: text = 'merit'
+22.1160 	EXP 	show_condition_text: autoDraw = True
+22.1165 	EXP 	New trial (rep=0, index=10): OrderedDict([('word', 'diy')])
+22.1325 	EXP 	show_condition_text: autoDraw = False
+22.1325 	EXP 	show_condition_text: text = 'diy'
+22.1325 	EXP 	show_condition_text: autoDraw = True
+22.1468 	EXP 	show_condition_text: autoDraw = False
+22.1475 	EXP 	New trial (rep=0, index=6): OrderedDict([('wlist_index', 6)])
+22.1507 	EXP 	Imported csvs/6.csv as conditions, 9 conditions, 1 params
+22.1511 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+22.1513 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'colonial')])
+22.1804 	EXP 	show_condition_text: text = 'colonial'
+22.1804 	EXP 	show_condition_text: autoDraw = True
+22.1808 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'landscape')])
+22.1896 	DATA 	Keypress: space
+22.2128 	EXP 	show_condition_text: autoDraw = False
+22.2128 	EXP 	show_condition_text: text = 'landscape'
+22.2128 	EXP 	show_condition_text: autoDraw = True
+22.2134 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'futures')])
+22.2299 	EXP 	show_condition_text: autoDraw = False
+22.2299 	EXP 	show_condition_text: text = 'futures'
+22.2299 	EXP 	show_condition_text: autoDraw = True
+22.2302 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'enjoyed')])
+22.2468 	EXP 	show_condition_text: autoDraw = False
+22.2468 	EXP 	show_condition_text: text = 'enjoyed'
+22.2468 	EXP 	show_condition_text: autoDraw = True
+22.2473 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'showers')])
+22.2641 	EXP 	show_condition_text: autoDraw = False
+22.2641 	EXP 	show_condition_text: text = 'showers'
+22.2641 	EXP 	show_condition_text: autoDraw = True
+22.2645 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'jose')])
+22.2805 	EXP 	show_condition_text: autoDraw = False
+22.2805 	EXP 	show_condition_text: text = 'jose'
+22.2805 	EXP 	show_condition_text: autoDraw = True
+22.2814 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'data')])
+22.2967 	EXP 	show_condition_text: autoDraw = False
+22.2967 	EXP 	show_condition_text: text = 'data'
+22.2967 	EXP 	show_condition_text: autoDraw = True
+22.2972 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'findlaw')])
+22.3144 	EXP 	show_condition_text: autoDraw = False
+22.3144 	EXP 	show_condition_text: text = 'findlaw'
+22.3144 	EXP 	show_condition_text: autoDraw = True
+22.3149 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'sole')])
+22.3307 	EXP 	show_condition_text: autoDraw = False
+22.3307 	EXP 	show_condition_text: text = 'sole'
+22.3307 	EXP 	show_condition_text: autoDraw = True
+22.3466 	EXP 	show_condition_text: autoDraw = False
+22.3471 	EXP 	New trial (rep=0, index=7): OrderedDict([('wlist_index', 16)])
+22.3506 	EXP 	Imported csvs/16.csv as conditions, 7 conditions, 1 params
+22.3509 	EXP 	Created sequence: random, trialTypes=7, nReps=1, seed=None
+22.3511 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'are')])
+22.3660 	EXP 	show_condition_text: text = 'are'
+22.3660 	EXP 	show_condition_text: autoDraw = True
+22.3665 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'usage')])
+22.3846 	EXP 	show_condition_text: autoDraw = False
+22.3846 	EXP 	show_condition_text: text = 'usage'
+22.3846 	EXP 	show_condition_text: autoDraw = True
+22.3850 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'activated')])
+22.4136 	EXP 	show_condition_text: autoDraw = False
+22.4136 	EXP 	show_condition_text: text = 'activated'
+22.4136 	EXP 	show_condition_text: autoDraw = True
+22.4144 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'original')])
+22.4316 	EXP 	show_condition_text: autoDraw = False
+22.4316 	EXP 	show_condition_text: text = 'original'
+22.4316 	EXP 	show_condition_text: autoDraw = True
+22.4320 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'estimates')])
+22.4505 	EXP 	show_condition_text: autoDraw = False
+22.4505 	EXP 	show_condition_text: text = 'estimates'
+22.4505 	EXP 	show_condition_text: autoDraw = True
+22.4509 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'moscow')])
+22.4682 	EXP 	show_condition_text: autoDraw = False
+22.4682 	EXP 	show_condition_text: text = 'moscow'
+22.4682 	EXP 	show_condition_text: autoDraw = True
+22.4687 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'singh')])
+22.4965 	EXP 	show_condition_text: autoDraw = False
+22.4965 	EXP 	show_condition_text: text = 'singh'
+22.4965 	EXP 	show_condition_text: autoDraw = True
+22.5134 	EXP 	show_condition_text: autoDraw = False
+22.5134 	EXP 	show_condition_text: text = '****'
+22.5134 	EXP 	show_condition_text: autoDraw = True
+22.5301 	EXP 	show_condition_text: text = '****'
+22.5301 	EXP 	show_condition_text: autoDraw = True
+22.5462 	EXP 	show_condition_text: text = '****'
+22.5462 	EXP 	show_condition_text: autoDraw = True
+22.5633 	EXP 	show_condition_text: text = '****'
+22.5633 	EXP 	show_condition_text: autoDraw = True
+22.5800 	EXP 	show_condition_text: text = '****'
+22.5800 	EXP 	show_condition_text: autoDraw = True
+22.5962 	EXP 	show_condition_text: text = '****'
+22.5962 	EXP 	show_condition_text: autoDraw = True
+22.6136 	EXP 	show_condition_text: text = '****'
+22.6136 	EXP 	show_condition_text: autoDraw = True
+22.6301 	EXP 	show_condition_text: text = '****'
+22.6301 	EXP 	show_condition_text: autoDraw = True
+22.6473 	EXP 	show_condition_text: text = '****'
+22.6473 	EXP 	show_condition_text: autoDraw = True
+22.6634 	EXP 	show_condition_text: text = '****'
+22.6634 	EXP 	show_condition_text: autoDraw = True
+22.6792 	EXP 	show_condition_text: text = '****'
+22.6792 	EXP 	show_condition_text: autoDraw = True
+22.6961 	EXP 	show_condition_text: text = '****'
+22.6961 	EXP 	show_condition_text: autoDraw = True
+22.7133 	EXP 	show_condition_text: text = '****'
+22.7133 	EXP 	show_condition_text: autoDraw = True
+22.7304 	EXP 	show_condition_text: text = '****'
+22.7304 	EXP 	show_condition_text: autoDraw = True
+22.7465 	EXP 	show_condition_text: text = '****'
+22.7465 	EXP 	show_condition_text: autoDraw = True
+22.7633 	EXP 	show_condition_text: text = '****'
+22.7633 	EXP 	show_condition_text: autoDraw = True
+22.7804 	EXP 	show_condition_text: text = '****'
+22.7804 	EXP 	show_condition_text: autoDraw = True
+22.7969 	EXP 	show_condition_text: text = '****'
+22.7969 	EXP 	show_condition_text: autoDraw = True
+22.8136 	EXP 	show_condition_text: text = '****'
+22.8136 	EXP 	show_condition_text: autoDraw = True
+22.8295 	EXP 	show_condition_text: text = '****'
+22.8295 	EXP 	show_condition_text: autoDraw = True
+22.8325 	DATA 	Keypress: space
+22.8465 	EXP 	show_condition_text: text = '****'
+22.8465 	EXP 	show_condition_text: autoDraw = True
+22.8634 	EXP 	show_condition_text: text = '****'
+22.8634 	EXP 	show_condition_text: autoDraw = True
+22.8794 	EXP 	show_condition_text: text = '****'
+22.8794 	EXP 	show_condition_text: autoDraw = True
+22.8968 	EXP 	show_condition_text: text = '****'
+22.8968 	EXP 	show_condition_text: autoDraw = True
+22.9138 	EXP 	New trial (rep=0, index=1): OrderedDict([('condition', 3)])
+22.9186 	EXP 	Imported csvs/condition_3_wlists_indices.csv as conditions, 8 conditions, 1 params
+22.9190 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+22.9193 	EXP 	New trial (rep=0, index=0): OrderedDict([('wlist_index', 28)])
+22.9230 	EXP 	Imported csvs/28.csv as conditions, 6 conditions, 1 params
+22.9233 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+22.9235 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'anthropology')])
+22.9463 	EXP 	show_condition_text: text = 'anthropology'
+22.9463 	EXP 	show_condition_text: autoDraw = True
+22.9467 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'regardless')])
+22.9638 	EXP 	show_condition_text: autoDraw = False
+22.9638 	EXP 	show_condition_text: text = 'regardless'
+22.9638 	EXP 	show_condition_text: autoDraw = True
+22.9645 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'separately')])
+22.9847 	EXP 	show_condition_text: autoDraw = False
+22.9847 	EXP 	show_condition_text: text = 'separately'
+22.9847 	EXP 	show_condition_text: autoDraw = True
+22.9851 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'figure')])
+23.0129 	EXP 	show_condition_text: autoDraw = False
+23.0129 	EXP 	show_condition_text: text = 'figure'
+23.0129 	EXP 	show_condition_text: autoDraw = True
+23.0135 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'make')])
+23.0299 	EXP 	show_condition_text: autoDraw = False
+23.0299 	EXP 	show_condition_text: text = 'make'
+23.0299 	EXP 	show_condition_text: autoDraw = True
+23.0303 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'biography')])
+23.0486 	EXP 	show_condition_text: autoDraw = False
+23.0486 	EXP 	show_condition_text: text = 'biography'
+23.0486 	EXP 	show_condition_text: autoDraw = True
+23.0635 	EXP 	show_condition_text: autoDraw = False
+23.0635 	EXP 	show_condition_text: text = '****'
+23.0635 	EXP 	show_condition_text: autoDraw = True
+23.0802 	EXP 	show_condition_text: text = '****'
+23.0802 	EXP 	show_condition_text: autoDraw = True
+23.0969 	EXP 	show_condition_text: text = '****'
+23.0969 	EXP 	show_condition_text: autoDraw = True
+23.1131 	EXP 	show_condition_text: text = '****'
+23.1131 	EXP 	show_condition_text: autoDraw = True
+23.1293 	EXP 	show_condition_text: text = '****'
+23.1293 	EXP 	show_condition_text: autoDraw = True
+23.1467 	EXP 	show_condition_text: text = '****'
+23.1467 	EXP 	show_condition_text: autoDraw = True
+23.1640 	EXP 	show_condition_text: text = '****'
+23.1640 	EXP 	show_condition_text: autoDraw = True
+23.1799 	EXP 	show_condition_text: text = '****'
+23.1799 	EXP 	show_condition_text: autoDraw = True
+23.1966 	EXP 	show_condition_text: text = '****'
+23.1966 	EXP 	show_condition_text: autoDraw = True
+23.2133 	EXP 	show_condition_text: text = '****'
+23.2133 	EXP 	show_condition_text: autoDraw = True
+23.2295 	EXP 	show_condition_text: text = '****'
+23.2295 	EXP 	show_condition_text: autoDraw = True
+23.2466 	EXP 	show_condition_text: text = '****'
+23.2466 	EXP 	show_condition_text: autoDraw = True
+23.2635 	EXP 	show_condition_text: text = '****'
+23.2635 	EXP 	show_condition_text: autoDraw = True
+23.2800 	EXP 	show_condition_text: text = '****'
+23.2800 	EXP 	show_condition_text: autoDraw = True
+23.2965 	EXP 	show_condition_text: text = '****'
+23.2965 	EXP 	show_condition_text: autoDraw = True
+23.3134 	EXP 	show_condition_text: text = '****'
+23.3134 	EXP 	show_condition_text: autoDraw = True
+23.3302 	EXP 	show_condition_text: text = '****'
+23.3302 	EXP 	show_condition_text: autoDraw = True
+23.3462 	EXP 	show_condition_text: text = '****'
+23.3462 	EXP 	show_condition_text: autoDraw = True
+23.3627 	EXP 	show_condition_text: text = '****'
+23.3627 	EXP 	show_condition_text: autoDraw = True
+23.3654 	DATA 	Keypress: space
+23.3800 	EXP 	show_condition_text: text = '****'
+23.3800 	EXP 	show_condition_text: autoDraw = True
+23.3969 	EXP 	show_condition_text: text = '****'
+23.3969 	EXP 	show_condition_text: autoDraw = True
+23.4134 	EXP 	show_condition_text: text = '****'
+23.4134 	EXP 	show_condition_text: autoDraw = True
+23.4301 	EXP 	show_condition_text: text = '****'
+23.4301 	EXP 	show_condition_text: autoDraw = True
+23.4473 	EXP 	New trial (rep=0, index=1): OrderedDict([('wlist_index', 1)])
+23.4508 	EXP 	Imported csvs/1.csv as conditions, 11 conditions, 1 params
+23.4511 	EXP 	Created sequence: random, trialTypes=11, nReps=1, seed=None
+23.4513 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'apartment')])
+23.4803 	EXP 	show_condition_text: text = 'apartment'
+23.4803 	EXP 	show_condition_text: autoDraw = True
+23.4808 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'ion')])
+23.4967 	EXP 	show_condition_text: autoDraw = False
+23.4967 	EXP 	show_condition_text: text = 'ion'
+23.4967 	EXP 	show_condition_text: autoDraw = True
+23.4972 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'owns')])
+23.5139 	EXP 	show_condition_text: autoDraw = False
+23.5139 	EXP 	show_condition_text: text = 'owns'
+23.5139 	EXP 	show_condition_text: autoDraw = True
+23.5144 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'optimal')])
+23.5333 	EXP 	show_condition_text: autoDraw = False
+23.5333 	EXP 	show_condition_text: text = 'optimal'
+23.5333 	EXP 	show_condition_text: autoDraw = True
+23.5338 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'coins')])
+23.5632 	EXP 	show_condition_text: autoDraw = False
+23.5632 	EXP 	show_condition_text: text = 'coins'
+23.5632 	EXP 	show_condition_text: autoDraw = True
+23.5637 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'informative')])
+23.5836 	EXP 	show_condition_text: autoDraw = False
+23.5836 	EXP 	show_condition_text: text = 'informative'
+23.5836 	EXP 	show_condition_text: autoDraw = True
+23.5841 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'dp')])
+23.6003 	EXP 	show_condition_text: autoDraw = False
+23.6003 	EXP 	show_condition_text: text = 'dp'
+23.6003 	EXP 	show_condition_text: autoDraw = True
+23.6007 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'page')])
+23.6296 	EXP 	show_condition_text: autoDraw = False
+23.6296 	EXP 	show_condition_text: text = 'page'
+23.6296 	EXP 	show_condition_text: autoDraw = True
+23.6301 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'jackie')])
+23.6470 	EXP 	show_condition_text: autoDraw = False
+23.6470 	EXP 	show_condition_text: text = 'jackie'
+23.6470 	EXP 	show_condition_text: autoDraw = True
+23.6475 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'lists')])
+23.6647 	EXP 	show_condition_text: autoDraw = False
+23.6647 	EXP 	show_condition_text: text = 'lists'
+23.6647 	EXP 	show_condition_text: autoDraw = True
+23.6652 	EXP 	New trial (rep=0, index=10): OrderedDict([('word', 'aspnet')])
+23.6821 	EXP 	show_condition_text: autoDraw = False
+23.6821 	EXP 	show_condition_text: text = 'aspnet'
+23.6821 	EXP 	show_condition_text: autoDraw = True
+23.6968 	EXP 	show_condition_text: autoDraw = False
+23.6968 	EXP 	show_condition_text: text = '****'
+23.6968 	EXP 	show_condition_text: autoDraw = True
+23.7128 	EXP 	show_condition_text: text = '****'
+23.7128 	EXP 	show_condition_text: autoDraw = True
+23.7294 	EXP 	show_condition_text: text = '****'
+23.7294 	EXP 	show_condition_text: autoDraw = True
+23.7467 	EXP 	show_condition_text: text = '****'
+23.7467 	EXP 	show_condition_text: autoDraw = True
+23.7635 	EXP 	show_condition_text: text = '****'
+23.7635 	EXP 	show_condition_text: autoDraw = True
+23.7793 	EXP 	show_condition_text: text = '****'
+23.7793 	EXP 	show_condition_text: autoDraw = True
+23.7969 	EXP 	show_condition_text: text = '****'
+23.7969 	EXP 	show_condition_text: autoDraw = True
+23.8131 	EXP 	show_condition_text: text = '****'
+23.8131 	EXP 	show_condition_text: autoDraw = True
+23.8299 	EXP 	show_condition_text: text = '****'
+23.8299 	EXP 	show_condition_text: autoDraw = True
+23.8465 	EXP 	show_condition_text: text = '****'
+23.8465 	EXP 	show_condition_text: autoDraw = True
+23.8635 	EXP 	show_condition_text: text = '****'
+23.8635 	EXP 	show_condition_text: autoDraw = True
+23.8802 	EXP 	show_condition_text: text = '****'
+23.8802 	EXP 	show_condition_text: autoDraw = True
+23.8969 	EXP 	show_condition_text: text = '****'
+23.8969 	EXP 	show_condition_text: autoDraw = True
+23.9127 	EXP 	show_condition_text: text = '****'
+23.9127 	EXP 	show_condition_text: autoDraw = True
+23.9293 	EXP 	show_condition_text: text = '****'
+23.9293 	EXP 	show_condition_text: autoDraw = True
+23.9460 	EXP 	show_condition_text: text = '****'
+23.9460 	EXP 	show_condition_text: autoDraw = True
+23.9634 	EXP 	show_condition_text: text = '****'
+23.9634 	EXP 	show_condition_text: autoDraw = True
+23.9801 	EXP 	show_condition_text: text = '****'
+23.9801 	EXP 	show_condition_text: autoDraw = True
+23.9971 	EXP 	show_condition_text: text = '****'
+23.9971 	EXP 	show_condition_text: autoDraw = True
+24.0131 	EXP 	show_condition_text: text = '****'
+24.0131 	EXP 	show_condition_text: autoDraw = True
+24.0302 	EXP 	show_condition_text: text = '****'
+24.0302 	EXP 	show_condition_text: autoDraw = True
+24.0468 	EXP 	show_condition_text: text = '****'
+24.0468 	EXP 	show_condition_text: autoDraw = True
+24.0629 	EXP 	show_condition_text: text = '****'
+24.0629 	EXP 	show_condition_text: autoDraw = True
+24.0796 	EXP 	show_condition_text: text = '****'
+24.0796 	EXP 	show_condition_text: autoDraw = True
+24.0826 	DATA 	Keypress: space
+24.0961 	EXP 	show_condition_text: text = '****'
+24.0961 	EXP 	show_condition_text: autoDraw = True
+24.1134 	EXP 	show_condition_text: text = '****'
+24.1134 	EXP 	show_condition_text: autoDraw = True
+24.1295 	EXP 	show_condition_text: text = '****'
+24.1295 	EXP 	show_condition_text: autoDraw = True
+24.1464 	EXP 	show_condition_text: text = '****'
+24.1464 	EXP 	show_condition_text: autoDraw = True
+24.1634 	EXP 	show_condition_text: text = '****'
+24.1634 	EXP 	show_condition_text: autoDraw = True
+24.1802 	EXP 	show_condition_text: text = '****'
+24.1802 	EXP 	show_condition_text: autoDraw = True
+24.1970 	EXP 	New trial (rep=0, index=2): OrderedDict([('wlist_index', 11)])
+24.2036 	EXP 	Imported csvs/11.csv as conditions, 11 conditions, 1 params
+24.2039 	EXP 	Created sequence: random, trialTypes=11, nReps=1, seed=None
+24.2042 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'gender')])
+24.2299 	EXP 	show_condition_text: text = 'gender'
+24.2299 	EXP 	show_condition_text: autoDraw = True
+24.2304 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'transparent')])
+24.2476 	EXP 	show_condition_text: autoDraw = False
+24.2476 	EXP 	show_condition_text: text = 'transparent'
+24.2476 	EXP 	show_condition_text: autoDraw = True
+24.2481 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'resorts')])
+24.2647 	EXP 	show_condition_text: autoDraw = False
+24.2647 	EXP 	show_condition_text: text = 'resorts'
+24.2647 	EXP 	show_condition_text: autoDraw = True
+24.2652 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'trigger')])
+24.2832 	EXP 	show_condition_text: autoDraw = False
+24.2832 	EXP 	show_condition_text: text = 'trigger'
+24.2832 	EXP 	show_condition_text: autoDraw = True
+24.2837 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'security')])
+24.3008 	EXP 	show_condition_text: autoDraw = False
+24.3008 	EXP 	show_condition_text: text = 'security'
+24.3008 	EXP 	show_condition_text: autoDraw = True
+24.3012 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'satisfactory')])
+24.3293 	EXP 	show_condition_text: autoDraw = False
+24.3293 	EXP 	show_condition_text: text = 'satisfactory'
+24.3293 	EXP 	show_condition_text: autoDraw = True
+24.3298 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'boom')])
+24.3470 	EXP 	show_condition_text: autoDraw = False
+24.3470 	EXP 	show_condition_text: text = 'boom'
+24.3470 	EXP 	show_condition_text: autoDraw = True
+24.3477 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'sad')])
+24.3636 	EXP 	show_condition_text: autoDraw = False
+24.3636 	EXP 	show_condition_text: text = 'sad'
+24.3636 	EXP 	show_condition_text: autoDraw = True
+24.3641 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'throwing')])
+24.3810 	EXP 	show_condition_text: autoDraw = False
+24.3810 	EXP 	show_condition_text: text = 'throwing'
+24.3810 	EXP 	show_condition_text: autoDraw = True
+24.3815 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'remarkable')])
+24.4001 	EXP 	show_condition_text: autoDraw = False
+24.4001 	EXP 	show_condition_text: text = 'remarkable'
+24.4001 	EXP 	show_condition_text: autoDraw = True
+24.4005 	EXP 	New trial (rep=0, index=10): OrderedDict([('word', 'events')])
+24.4173 	EXP 	show_condition_text: autoDraw = False
+24.4173 	EXP 	show_condition_text: text = 'events'
+24.4173 	EXP 	show_condition_text: autoDraw = True
+24.4332 	EXP 	show_condition_text: autoDraw = False
+24.4332 	EXP 	show_condition_text: text = '****'
+24.4332 	EXP 	show_condition_text: autoDraw = True
+24.4466 	EXP 	show_condition_text: text = '****'
+24.4466 	EXP 	show_condition_text: autoDraw = True
+24.4635 	EXP 	show_condition_text: text = '****'
+24.4635 	EXP 	show_condition_text: autoDraw = True
+24.4793 	EXP 	show_condition_text: text = '****'
+24.4793 	EXP 	show_condition_text: autoDraw = True
+24.4961 	EXP 	show_condition_text: text = '****'
+24.4961 	EXP 	show_condition_text: autoDraw = True
+24.5132 	EXP 	show_condition_text: text = '****'
+24.5132 	EXP 	show_condition_text: autoDraw = True
+24.5291 	EXP 	show_condition_text: text = '****'
+24.5291 	EXP 	show_condition_text: autoDraw = True
+24.5465 	EXP 	show_condition_text: text = '****'
+24.5465 	EXP 	show_condition_text: autoDraw = True
+24.5633 	EXP 	show_condition_text: text = '****'
+24.5633 	EXP 	show_condition_text: autoDraw = True
+24.5800 	EXP 	show_condition_text: text = '****'
+24.5800 	EXP 	show_condition_text: autoDraw = True
+24.5968 	EXP 	show_condition_text: text = '****'
+24.5968 	EXP 	show_condition_text: autoDraw = True
+24.6132 	EXP 	show_condition_text: text = '****'
+24.6132 	EXP 	show_condition_text: autoDraw = True
+24.6292 	EXP 	show_condition_text: text = '****'
+24.6292 	EXP 	show_condition_text: autoDraw = True
+24.6463 	EXP 	show_condition_text: text = '****'
+24.6463 	EXP 	show_condition_text: autoDraw = True
+24.6636 	EXP 	show_condition_text: text = '****'
+24.6636 	EXP 	show_condition_text: autoDraw = True
+24.6802 	EXP 	show_condition_text: text = '****'
+24.6802 	EXP 	show_condition_text: autoDraw = True
+24.6969 	EXP 	show_condition_text: text = '****'
+24.6969 	EXP 	show_condition_text: autoDraw = True
+24.7137 	EXP 	show_condition_text: text = '****'
+24.7137 	EXP 	show_condition_text: autoDraw = True
+24.7172 	DATA 	Keypress: space
+24.7301 	EXP 	show_condition_text: text = '****'
+24.7301 	EXP 	show_condition_text: autoDraw = True
+24.7468 	EXP 	show_condition_text: text = '****'
+24.7468 	EXP 	show_condition_text: autoDraw = True
+24.7628 	EXP 	show_condition_text: text = '****'
+24.7628 	EXP 	show_condition_text: autoDraw = True
+24.7793 	EXP 	show_condition_text: text = '****'
+24.7793 	EXP 	show_condition_text: autoDraw = True
+24.7963 	EXP 	show_condition_text: text = '****'
+24.7963 	EXP 	show_condition_text: autoDraw = True
+24.8137 	EXP 	New trial (rep=0, index=3): OrderedDict([('wlist_index', 29)])
+24.8172 	EXP 	Imported csvs/29.csv as conditions, 10 conditions, 1 params
+24.8176 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+24.8178 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'ferrari')])
+24.8341 	EXP 	show_condition_text: text = 'ferrari'
+24.8341 	EXP 	show_condition_text: autoDraw = True
+24.8345 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'sand')])
+24.8634 	EXP 	show_condition_text: autoDraw = False
+24.8634 	EXP 	show_condition_text: text = 'sand'
+24.8634 	EXP 	show_condition_text: autoDraw = True
+24.8640 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'brass')])
+24.8825 	EXP 	show_condition_text: autoDraw = False
+24.8825 	EXP 	show_condition_text: text = 'brass'
+24.8825 	EXP 	show_condition_text: autoDraw = True
+24.8830 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'taxation')])
+24.9005 	EXP 	show_condition_text: autoDraw = False
+24.9005 	EXP 	show_condition_text: text = 'taxation'
+24.9005 	EXP 	show_condition_text: autoDraw = True
+24.9009 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'docs')])
+24.9170 	EXP 	show_condition_text: autoDraw = False
+24.9170 	EXP 	show_condition_text: text = 'docs'
+24.9170 	EXP 	show_condition_text: autoDraw = True
+24.9176 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'modifications')])
+24.9459 	EXP 	show_condition_text: autoDraw = False
+24.9459 	EXP 	show_condition_text: text = 'modifications'
+24.9459 	EXP 	show_condition_text: autoDraw = True
+24.9465 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'if')])
+24.9635 	EXP 	show_condition_text: autoDraw = False
+24.9635 	EXP 	show_condition_text: text = 'if'
+24.9635 	EXP 	show_condition_text: autoDraw = True
+24.9640 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'listed')])
+24.9813 	EXP 	show_condition_text: autoDraw = False
+24.9813 	EXP 	show_condition_text: text = 'listed'
+24.9813 	EXP 	show_condition_text: autoDraw = True
+24.9817 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'patio')])
+24.9986 	EXP 	show_condition_text: autoDraw = False
+24.9986 	EXP 	show_condition_text: text = 'patio'
+24.9986 	EXP 	show_condition_text: autoDraw = True
+24.9991 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'plugin')])
+25.0170 	EXP 	show_condition_text: autoDraw = False
+25.0170 	EXP 	show_condition_text: text = 'plugin'
+25.0170 	EXP 	show_condition_text: autoDraw = True
+25.0324 	EXP 	show_condition_text: autoDraw = False
+25.0324 	EXP 	show_condition_text: text = '****'
+25.0324 	EXP 	show_condition_text: autoDraw = True
+25.0466 	EXP 	show_condition_text: text = '****'
+25.0466 	EXP 	show_condition_text: autoDraw = True
+25.0636 	EXP 	show_condition_text: text = '****'
+25.0636 	EXP 	show_condition_text: autoDraw = True
+25.0792 	EXP 	show_condition_text: text = '****'
+25.0792 	EXP 	show_condition_text: autoDraw = True
+25.0961 	EXP 	show_condition_text: text = '****'
+25.0961 	EXP 	show_condition_text: autoDraw = True
+25.1131 	EXP 	show_condition_text: text = '****'
+25.1131 	EXP 	show_condition_text: autoDraw = True
+25.1294 	EXP 	show_condition_text: text = '****'
+25.1294 	EXP 	show_condition_text: autoDraw = True
+25.1468 	EXP 	show_condition_text: text = '****'
+25.1468 	EXP 	show_condition_text: autoDraw = True
+25.1637 	EXP 	show_condition_text: text = '****'
+25.1637 	EXP 	show_condition_text: autoDraw = True
+25.1796 	EXP 	show_condition_text: text = '****'
+25.1796 	EXP 	show_condition_text: autoDraw = True
+25.1963 	EXP 	show_condition_text: text = '****'
+25.1963 	EXP 	show_condition_text: autoDraw = True
+25.2132 	EXP 	show_condition_text: text = '****'
+25.2132 	EXP 	show_condition_text: autoDraw = True
+25.2296 	EXP 	show_condition_text: text = '****'
+25.2296 	EXP 	show_condition_text: autoDraw = True
+25.2469 	EXP 	show_condition_text: text = '****'
+25.2469 	EXP 	show_condition_text: autoDraw = True
+25.2636 	EXP 	show_condition_text: text = '****'
+25.2636 	EXP 	show_condition_text: autoDraw = True
+25.2799 	EXP 	show_condition_text: text = '****'
+25.2799 	EXP 	show_condition_text: autoDraw = True
+25.2828 	DATA 	Keypress: space
+25.2961 	EXP 	show_condition_text: text = '****'
+25.2961 	EXP 	show_condition_text: autoDraw = True
+25.3134 	EXP 	show_condition_text: text = '****'
+25.3134 	EXP 	show_condition_text: autoDraw = True
+25.3299 	EXP 	show_condition_text: text = '****'
+25.3299 	EXP 	show_condition_text: autoDraw = True
+25.3462 	EXP 	show_condition_text: text = '****'
+25.3462 	EXP 	show_condition_text: autoDraw = True
+25.3640 	EXP 	New trial (rep=0, index=4): OrderedDict([('wlist_index', 32)])
+25.3676 	EXP 	Imported csvs/32.csv as conditions, 5 conditions, 1 params
+25.3679 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+25.3681 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'feedback')])
+25.3852 	EXP 	show_condition_text: text = 'feedback'
+25.3852 	EXP 	show_condition_text: autoDraw = True
+25.3857 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'ranks')])
+25.4135 	EXP 	show_condition_text: autoDraw = False
+25.4135 	EXP 	show_condition_text: text = 'ranks'
+25.4135 	EXP 	show_condition_text: autoDraw = True
+25.4141 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'transport')])
+25.4310 	EXP 	show_condition_text: autoDraw = False
+25.4310 	EXP 	show_condition_text: text = 'transport'
+25.4310 	EXP 	show_condition_text: autoDraw = True
+25.4314 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'declared')])
+25.4468 	EXP 	show_condition_text: autoDraw = False
+25.4468 	EXP 	show_condition_text: text = 'declared'
+25.4468 	EXP 	show_condition_text: autoDraw = True
+25.4473 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'jamaica')])
+25.4648 	EXP 	show_condition_text: autoDraw = False
+25.4648 	EXP 	show_condition_text: text = 'jamaica'
+25.4648 	EXP 	show_condition_text: autoDraw = True
+25.4802 	EXP 	show_condition_text: autoDraw = False
+25.4802 	EXP 	show_condition_text: text = '****'
+25.4802 	EXP 	show_condition_text: autoDraw = True
+25.4961 	EXP 	show_condition_text: text = '****'
+25.4961 	EXP 	show_condition_text: autoDraw = True
+25.5133 	EXP 	show_condition_text: text = '****'
+25.5133 	EXP 	show_condition_text: autoDraw = True
+25.5299 	EXP 	show_condition_text: text = '****'
+25.5299 	EXP 	show_condition_text: autoDraw = True
+25.5467 	EXP 	show_condition_text: text = '****'
+25.5467 	EXP 	show_condition_text: autoDraw = True
+25.5631 	EXP 	show_condition_text: text = '****'
+25.5631 	EXP 	show_condition_text: autoDraw = True
+25.5800 	EXP 	show_condition_text: text = '****'
+25.5800 	EXP 	show_condition_text: autoDraw = True
+25.5960 	EXP 	show_condition_text: text = '****'
+25.5960 	EXP 	show_condition_text: autoDraw = True
+25.6134 	EXP 	show_condition_text: text = '****'
+25.6134 	EXP 	show_condition_text: autoDraw = True
+25.6302 	EXP 	show_condition_text: text = '****'
+25.6302 	EXP 	show_condition_text: autoDraw = True
+25.6470 	EXP 	show_condition_text: text = '****'
+25.6470 	EXP 	show_condition_text: autoDraw = True
+25.6636 	EXP 	show_condition_text: text = '****'
+25.6636 	EXP 	show_condition_text: autoDraw = True
+25.6799 	EXP 	show_condition_text: text = '****'
+25.6799 	EXP 	show_condition_text: autoDraw = True
+25.6961 	EXP 	show_condition_text: text = '****'
+25.6961 	EXP 	show_condition_text: autoDraw = True
+25.7136 	EXP 	show_condition_text: text = '****'
+25.7136 	EXP 	show_condition_text: autoDraw = True
+25.7298 	EXP 	show_condition_text: text = '****'
+25.7298 	EXP 	show_condition_text: autoDraw = True
+25.7471 	EXP 	show_condition_text: text = '****'
+25.7471 	EXP 	show_condition_text: autoDraw = True
+25.7635 	EXP 	show_condition_text: text = '****'
+25.7635 	EXP 	show_condition_text: autoDraw = True
+25.7800 	EXP 	show_condition_text: text = '****'
+25.7800 	EXP 	show_condition_text: autoDraw = True
+25.7967 	EXP 	show_condition_text: text = '****'
+25.7967 	EXP 	show_condition_text: autoDraw = True
+25.8000 	DATA 	Keypress: space
+25.8134 	EXP 	show_condition_text: text = '****'
+25.8134 	EXP 	show_condition_text: autoDraw = True
+25.8303 	EXP 	show_condition_text: text = '****'
+25.8303 	EXP 	show_condition_text: autoDraw = True
+25.8467 	EXP 	show_condition_text: text = '****'
+25.8467 	EXP 	show_condition_text: autoDraw = True
+25.8628 	EXP 	show_condition_text: text = '****'
+25.8628 	EXP 	show_condition_text: autoDraw = True
+25.8805 	EXP 	New trial (rep=0, index=5): OrderedDict([('wlist_index', 15)])
+25.8835 	EXP 	Imported csvs/15.csv as conditions, 8 conditions, 1 params
+25.8838 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+25.8840 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'feels')])
+25.8995 	EXP 	show_condition_text: text = 'feels'
+25.8995 	EXP 	show_condition_text: autoDraw = True
+25.8999 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'burn')])
+25.9154 	EXP 	show_condition_text: autoDraw = False
+25.9154 	EXP 	show_condition_text: text = 'burn'
+25.9154 	EXP 	show_condition_text: autoDraw = True
+25.9160 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'netherlands')])
+25.9341 	EXP 	show_condition_text: autoDraw = False
+25.9341 	EXP 	show_condition_text: text = 'netherlands'
+25.9341 	EXP 	show_condition_text: autoDraw = True
+25.9345 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'traditions')])
+25.9633 	EXP 	show_condition_text: autoDraw = False
+25.9633 	EXP 	show_condition_text: text = 'traditions'
+25.9633 	EXP 	show_condition_text: autoDraw = True
+25.9638 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'irc')])
+25.9805 	EXP 	show_condition_text: autoDraw = False
+25.9805 	EXP 	show_condition_text: text = 'irc'
+25.9805 	EXP 	show_condition_text: autoDraw = True
+25.9809 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'farmers')])
+25.9970 	EXP 	show_condition_text: autoDraw = False
+25.9970 	EXP 	show_condition_text: text = 'farmers'
+25.9970 	EXP 	show_condition_text: autoDraw = True
+25.9976 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'harrison')])
+26.0159 	EXP 	show_condition_text: autoDraw = False
+26.0159 	EXP 	show_condition_text: text = 'harrison'
+26.0159 	EXP 	show_condition_text: autoDraw = True
+26.0164 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'seem')])
+26.0334 	EXP 	show_condition_text: autoDraw = False
+26.0334 	EXP 	show_condition_text: text = 'seem'
+26.0334 	EXP 	show_condition_text: autoDraw = True
+26.0487 	EXP 	show_condition_text: autoDraw = False
+26.0487 	EXP 	show_condition_text: text = '****'
+26.0487 	EXP 	show_condition_text: autoDraw = True
+26.0634 	EXP 	show_condition_text: text = '****'
+26.0634 	EXP 	show_condition_text: autoDraw = True
+26.0792 	EXP 	show_condition_text: text = '****'
+26.0792 	EXP 	show_condition_text: autoDraw = True
+26.0968 	EXP 	show_condition_text: text = '****'
+26.0968 	EXP 	show_condition_text: autoDraw = True
+26.1128 	EXP 	show_condition_text: text = '****'
+26.1128 	EXP 	show_condition_text: autoDraw = True
+26.1302 	EXP 	show_condition_text: text = '****'
+26.1302 	EXP 	show_condition_text: autoDraw = True
+26.1467 	EXP 	show_condition_text: text = '****'
+26.1467 	EXP 	show_condition_text: autoDraw = True
+26.1633 	EXP 	show_condition_text: text = '****'
+26.1633 	EXP 	show_condition_text: autoDraw = True
+26.1797 	EXP 	show_condition_text: text = '****'
+26.1797 	EXP 	show_condition_text: autoDraw = True
+26.1964 	EXP 	show_condition_text: text = '****'
+26.1964 	EXP 	show_condition_text: autoDraw = True
+26.2128 	EXP 	show_condition_text: text = '****'
+26.2128 	EXP 	show_condition_text: autoDraw = True
+26.2294 	EXP 	show_condition_text: text = '****'
+26.2294 	EXP 	show_condition_text: autoDraw = True
+26.2463 	EXP 	show_condition_text: text = '****'
+26.2463 	EXP 	show_condition_text: autoDraw = True
+26.2639 	EXP 	show_condition_text: text = '****'
+26.2639 	EXP 	show_condition_text: autoDraw = True
+26.2800 	EXP 	show_condition_text: text = '****'
+26.2800 	EXP 	show_condition_text: autoDraw = True
+26.2966 	EXP 	show_condition_text: text = '****'
+26.2966 	EXP 	show_condition_text: autoDraw = True
+26.3126 	EXP 	show_condition_text: text = '****'
+26.3126 	EXP 	show_condition_text: autoDraw = True
+26.3152 	DATA 	Keypress: space
+26.3293 	EXP 	show_condition_text: text = '****'
+26.3293 	EXP 	show_condition_text: autoDraw = True
+26.3461 	EXP 	show_condition_text: text = '****'
+26.3461 	EXP 	show_condition_text: autoDraw = True
+26.3634 	EXP 	show_condition_text: text = '****'
+26.3634 	EXP 	show_condition_text: autoDraw = True
+26.3803 	EXP 	show_condition_text: text = '****'
+26.3803 	EXP 	show_condition_text: autoDraw = True
+26.4133 	EXP 	show_condition_text: text = '****'
+26.4133 	EXP 	show_condition_text: autoDraw = True
+26.4303 	EXP 	New trial (rep=0, index=6): OrderedDict([('wlist_index', 22)])
+26.4335 	EXP 	Imported csvs/22.csv as conditions, 10 conditions, 1 params
+26.4339 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+26.4341 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'athletics')])
+26.4627 	EXP 	show_condition_text: text = 'athletics'
+26.4627 	EXP 	show_condition_text: autoDraw = True
+26.4632 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'sophisticated')])
+26.4846 	EXP 	show_condition_text: autoDraw = False
+26.4846 	EXP 	show_condition_text: text = 'sophisticated'
+26.4846 	EXP 	show_condition_text: autoDraw = True
+26.4853 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'es')])
+26.5129 	EXP 	show_condition_text: autoDraw = False
+26.5129 	EXP 	show_condition_text: text = 'es'
+26.5129 	EXP 	show_condition_text: autoDraw = True
+26.5134 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'detective')])
+26.5304 	EXP 	show_condition_text: autoDraw = False
+26.5304 	EXP 	show_condition_text: text = 'detective'
+26.5304 	EXP 	show_condition_text: autoDraw = True
+26.5308 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'secret')])
+26.5467 	EXP 	show_condition_text: autoDraw = False
+26.5467 	EXP 	show_condition_text: text = 'secret'
+26.5467 	EXP 	show_condition_text: autoDraw = True
+26.5474 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'rarely')])
+26.5637 	EXP 	show_condition_text: autoDraw = False
+26.5637 	EXP 	show_condition_text: text = 'rarely'
+26.5637 	EXP 	show_condition_text: autoDraw = True
+26.5642 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'missions')])
+26.5830 	EXP 	show_condition_text: autoDraw = False
+26.5830 	EXP 	show_condition_text: text = 'missions'
+26.5830 	EXP 	show_condition_text: autoDraw = True
+26.5833 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'away')])
+26.5993 	EXP 	show_condition_text: autoDraw = False
+26.5993 	EXP 	show_condition_text: text = 'away'
+26.5993 	EXP 	show_condition_text: autoDraw = True
+26.5997 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'gotten')])
+26.6157 	EXP 	show_condition_text: autoDraw = False
+26.6157 	EXP 	show_condition_text: text = 'gotten'
+26.6157 	EXP 	show_condition_text: autoDraw = True
+26.6162 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'marina')])
+26.6338 	EXP 	show_condition_text: autoDraw = False
+26.6338 	EXP 	show_condition_text: text = 'marina'
+26.6338 	EXP 	show_condition_text: autoDraw = True
+26.6489 	EXP 	show_condition_text: autoDraw = False
+26.6489 	EXP 	show_condition_text: text = '****'
+26.6489 	EXP 	show_condition_text: autoDraw = True
+26.6625 	EXP 	show_condition_text: text = '****'
+26.6625 	EXP 	show_condition_text: autoDraw = True
+26.6801 	EXP 	show_condition_text: text = '****'
+26.6801 	EXP 	show_condition_text: autoDraw = True
+26.6970 	EXP 	show_condition_text: text = '****'
+26.6970 	EXP 	show_condition_text: autoDraw = True
+26.7137 	EXP 	show_condition_text: text = '****'
+26.7137 	EXP 	show_condition_text: autoDraw = True
+26.7305 	EXP 	show_condition_text: text = '****'
+26.7305 	EXP 	show_condition_text: autoDraw = True
+26.7332 	DATA 	Keypress: space
+26.7469 	EXP 	show_condition_text: text = '****'
+26.7469 	EXP 	show_condition_text: autoDraw = True
+26.7636 	EXP 	show_condition_text: text = '****'
+26.7636 	EXP 	show_condition_text: autoDraw = True
+26.7798 	EXP 	show_condition_text: text = '****'
+26.7798 	EXP 	show_condition_text: autoDraw = True
+26.7970 	EXP 	show_condition_text: text = '****'
+26.7970 	EXP 	show_condition_text: autoDraw = True
+26.8136 	EXP 	show_condition_text: text = '****'
+26.8136 	EXP 	show_condition_text: autoDraw = True
+26.8291 	EXP 	show_condition_text: text = '****'
+26.8291 	EXP 	show_condition_text: autoDraw = True
+26.8469 	EXP 	show_condition_text: text = '****'
+26.8469 	EXP 	show_condition_text: autoDraw = True
+26.8641 	EXP 	New trial (rep=0, index=7): OrderedDict([('wlist_index', 30)])
+26.8691 	EXP 	Imported csvs/30.csv as conditions, 9 conditions, 1 params
+26.8695 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+26.8697 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'charger')])
+26.8963 	EXP 	show_condition_text: text = 'charger'
+26.8963 	EXP 	show_condition_text: autoDraw = True
+26.8968 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'parts')])
+26.9136 	EXP 	show_condition_text: autoDraw = False
+26.9136 	EXP 	show_condition_text: text = 'parts'
+26.9136 	EXP 	show_condition_text: autoDraw = True
+26.9141 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'engage')])
+26.9324 	EXP 	show_condition_text: autoDraw = False
+26.9324 	EXP 	show_condition_text: text = 'engage'
+26.9324 	EXP 	show_condition_text: autoDraw = True
+26.9328 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'inter')])
+26.9493 	EXP 	show_condition_text: autoDraw = False
+26.9493 	EXP 	show_condition_text: text = 'inter'
+26.9493 	EXP 	show_condition_text: autoDraw = True
+26.9498 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'eos')])
+26.9655 	EXP 	show_condition_text: autoDraw = False
+26.9655 	EXP 	show_condition_text: text = 'eos'
+26.9655 	EXP 	show_condition_text: autoDraw = True
+26.9661 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'joshua')])
+26.9846 	EXP 	show_condition_text: autoDraw = False
+26.9846 	EXP 	show_condition_text: text = 'joshua'
+26.9846 	EXP 	show_condition_text: autoDraw = True
+26.9851 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'carry')])
+27.0126 	EXP 	show_condition_text: autoDraw = False
+27.0126 	EXP 	show_condition_text: text = 'carry'
+27.0126 	EXP 	show_condition_text: autoDraw = True
+27.0130 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'sat')])
+27.0294 	EXP 	show_condition_text: autoDraw = False
+27.0294 	EXP 	show_condition_text: text = 'sat'
+27.0294 	EXP 	show_condition_text: autoDraw = True
+27.0299 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'acm')])
+27.0470 	EXP 	show_condition_text: autoDraw = False
+27.0470 	EXP 	show_condition_text: text = 'acm'
+27.0470 	EXP 	show_condition_text: autoDraw = True
+27.0626 	EXP 	show_condition_text: autoDraw = False
+27.0626 	EXP 	show_condition_text: text = '****'
+27.0626 	EXP 	show_condition_text: autoDraw = True
+27.0801 	EXP 	show_condition_text: text = '****'
+27.0801 	EXP 	show_condition_text: autoDraw = True
+27.0969 	EXP 	show_condition_text: text = '****'
+27.0969 	EXP 	show_condition_text: autoDraw = True
+27.1124 	EXP 	show_condition_text: text = '****'
+27.1124 	EXP 	show_condition_text: autoDraw = True
+27.1303 	EXP 	show_condition_text: text = '****'
+27.1303 	EXP 	show_condition_text: autoDraw = True
+27.1460 	EXP 	show_condition_text: text = '****'
+27.1460 	EXP 	show_condition_text: autoDraw = True
+27.1630 	EXP 	show_condition_text: text = '****'
+27.1630 	EXP 	show_condition_text: autoDraw = True
+27.1801 	EXP 	show_condition_text: text = '****'
+27.1801 	EXP 	show_condition_text: autoDraw = True
+27.1968 	EXP 	show_condition_text: text = '****'
+27.1968 	EXP 	show_condition_text: autoDraw = True
+27.2136 	EXP 	show_condition_text: text = '****'
+27.2136 	EXP 	show_condition_text: autoDraw = True
+27.2301 	EXP 	show_condition_text: text = '****'
+27.2301 	EXP 	show_condition_text: autoDraw = True
+27.2461 	EXP 	show_condition_text: text = '****'
+27.2461 	EXP 	show_condition_text: autoDraw = True
+27.2635 	EXP 	show_condition_text: text = '****'
+27.2635 	EXP 	show_condition_text: autoDraw = True
+27.2797 	EXP 	show_condition_text: text = '****'
+27.2797 	EXP 	show_condition_text: autoDraw = True
+27.2965 	EXP 	show_condition_text: text = '****'
+27.2965 	EXP 	show_condition_text: autoDraw = True
+27.3135 	EXP 	show_condition_text: text = '****'
+27.3135 	EXP 	show_condition_text: autoDraw = True
+27.3303 	EXP 	show_condition_text: text = '****'
+27.3303 	EXP 	show_condition_text: autoDraw = True
+27.3460 	EXP 	show_condition_text: text = '****'
+27.3460 	EXP 	show_condition_text: autoDraw = True
+27.3624 	EXP 	show_condition_text: text = '****'
+27.3624 	EXP 	show_condition_text: autoDraw = True
+27.3792 	EXP 	show_condition_text: text = '****'
+27.3792 	EXP 	show_condition_text: autoDraw = True
+27.3823 	DATA 	Keypress: space
+27.3968 	EXP 	show_condition_text: text = '****'
+27.3968 	EXP 	show_condition_text: autoDraw = True
+27.4136 	EXP 	show_condition_text: text = '****'
+27.4136 	EXP 	show_condition_text: autoDraw = True
+27.4301 	EXP 	show_condition_text: text = '****'
+27.4301 	EXP 	show_condition_text: autoDraw = True
+27.4464 	EXP 	show_condition_text: text = '****'
+27.4464 	EXP 	show_condition_text: autoDraw = True
+27.4633 	EXP 	New trial (rep=0, index=2): OrderedDict([('condition', 1)])
+27.4665 	EXP 	Imported csvs/condition_1_wlists_indices.csv as conditions, 8 conditions, 1 params
+27.4669 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+27.4671 	EXP 	New trial (rep=0, index=0): OrderedDict([('wlist_index', 31)])
+27.4701 	EXP 	Imported csvs/31.csv as conditions, 8 conditions, 1 params
+27.4704 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+27.4706 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'incest')])
+27.4961 	EXP 	show_condition_text: text = 'incest'
+27.4961 	EXP 	show_condition_text: autoDraw = True
+27.4965 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'reverse')])
+27.5135 	EXP 	show_condition_text: autoDraw = False
+27.5135 	EXP 	show_condition_text: text = 'reverse'
+27.5135 	EXP 	show_condition_text: autoDraw = True
+27.5140 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'watson')])
+27.5323 	EXP 	show_condition_text: autoDraw = False
+27.5323 	EXP 	show_condition_text: text = 'watson'
+27.5323 	EXP 	show_condition_text: autoDraw = True
+27.5327 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'gi')])
+27.5471 	EXP 	show_condition_text: autoDraw = False
+27.5471 	EXP 	show_condition_text: text = 'gi'
+27.5471 	EXP 	show_condition_text: autoDraw = True
+27.5477 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'humanitarian')])
+27.5665 	EXP 	show_condition_text: autoDraw = False
+27.5665 	EXP 	show_condition_text: text = 'humanitarian'
+27.5665 	EXP 	show_condition_text: autoDraw = True
+27.5670 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'usd')])
+27.5835 	EXP 	show_condition_text: autoDraw = False
+27.5835 	EXP 	show_condition_text: text = 'usd'
+27.5835 	EXP 	show_condition_text: autoDraw = True
+27.5839 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'phenomenon')])
+27.6132 	EXP 	show_condition_text: autoDraw = False
+27.6132 	EXP 	show_condition_text: text = 'phenomenon'
+27.6132 	EXP 	show_condition_text: autoDraw = True
+27.6138 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'act')])
+27.6301 	EXP 	show_condition_text: autoDraw = False
+27.6301 	EXP 	show_condition_text: text = 'act'
+27.6301 	EXP 	show_condition_text: autoDraw = True
+27.6465 	EXP 	show_condition_text: autoDraw = False
+27.6465 	EXP 	show_condition_text: text = '****'
+27.6465 	EXP 	show_condition_text: autoDraw = True
+27.6629 	EXP 	show_condition_text: text = '****'
+27.6629 	EXP 	show_condition_text: autoDraw = True
+27.6801 	EXP 	show_condition_text: text = '****'
+27.6801 	EXP 	show_condition_text: autoDraw = True
+27.6968 	EXP 	show_condition_text: text = '****'
+27.6968 	EXP 	show_condition_text: autoDraw = True
+27.7130 	EXP 	show_condition_text: text = '****'
+27.7130 	EXP 	show_condition_text: autoDraw = True
+27.7293 	EXP 	show_condition_text: text = '****'
+27.7293 	EXP 	show_condition_text: autoDraw = True
+27.7467 	EXP 	show_condition_text: text = '****'
+27.7467 	EXP 	show_condition_text: autoDraw = True
+27.7636 	EXP 	show_condition_text: text = '****'
+27.7636 	EXP 	show_condition_text: autoDraw = True
+27.7797 	EXP 	show_condition_text: text = '****'
+27.7797 	EXP 	show_condition_text: autoDraw = True
+27.7969 	EXP 	show_condition_text: text = '****'
+27.7969 	EXP 	show_condition_text: autoDraw = True
+27.8137 	EXP 	show_condition_text: text = '****'
+27.8137 	EXP 	show_condition_text: autoDraw = True
+27.8293 	EXP 	show_condition_text: text = '****'
+27.8293 	EXP 	show_condition_text: autoDraw = True
+27.8460 	EXP 	show_condition_text: text = '****'
+27.8460 	EXP 	show_condition_text: autoDraw = True
+27.8631 	EXP 	show_condition_text: text = '****'
+27.8631 	EXP 	show_condition_text: autoDraw = True
+27.8793 	EXP 	show_condition_text: text = '****'
+27.8793 	EXP 	show_condition_text: autoDraw = True
+27.8964 	EXP 	show_condition_text: text = '****'
+27.8964 	EXP 	show_condition_text: autoDraw = True
+27.9133 	EXP 	show_condition_text: text = '****'
+27.9133 	EXP 	show_condition_text: autoDraw = True
+27.9298 	EXP 	show_condition_text: text = '****'
+27.9298 	EXP 	show_condition_text: autoDraw = True
+27.9467 	EXP 	show_condition_text: text = '****'
+27.9467 	EXP 	show_condition_text: autoDraw = True
+27.9626 	EXP 	show_condition_text: text = '****'
+27.9626 	EXP 	show_condition_text: autoDraw = True
+27.9652 	DATA 	Keypress: space
+27.9801 	EXP 	show_condition_text: text = '****'
+27.9801 	EXP 	show_condition_text: autoDraw = True
+27.9960 	EXP 	show_condition_text: text = '****'
+27.9960 	EXP 	show_condition_text: autoDraw = True
+28.0130 	EXP 	show_condition_text: text = '****'
+28.0130 	EXP 	show_condition_text: autoDraw = True
+28.0302 	EXP 	show_condition_text: text = '****'
+28.0302 	EXP 	show_condition_text: autoDraw = True
+28.0462 	EXP 	show_condition_text: text = '****'
+28.0462 	EXP 	show_condition_text: autoDraw = True
+28.0643 	EXP 	New trial (rep=0, index=1): OrderedDict([('wlist_index', 12)])
+28.0678 	EXP 	Imported csvs/12.csv as conditions, 7 conditions, 1 params
+28.0681 	EXP 	Created sequence: random, trialTypes=7, nReps=1, seed=None
+28.0683 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'latin')])
+28.0851 	EXP 	show_condition_text: text = 'latin'
+28.0851 	EXP 	show_condition_text: autoDraw = True
+28.0857 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'rapid')])
+28.1134 	EXP 	show_condition_text: autoDraw = False
+28.1134 	EXP 	show_condition_text: text = 'rapid'
+28.1134 	EXP 	show_condition_text: autoDraw = True
+28.1140 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'bangkok')])
+28.1328 	EXP 	show_condition_text: autoDraw = False
+28.1328 	EXP 	show_condition_text: text = 'bangkok'
+28.1328 	EXP 	show_condition_text: autoDraw = True
+28.1336 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'shipments')])
+28.1629 	EXP 	show_condition_text: autoDraw = False
+28.1629 	EXP 	show_condition_text: text = 'shipments'
+28.1629 	EXP 	show_condition_text: autoDraw = True
+28.1636 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'keyword')])
+28.1827 	EXP 	show_condition_text: autoDraw = False
+28.1827 	EXP 	show_condition_text: text = 'keyword'
+28.1827 	EXP 	show_condition_text: autoDraw = True
+28.1831 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'powered')])
+28.2132 	EXP 	show_condition_text: autoDraw = False
+28.2132 	EXP 	show_condition_text: text = 'powered'
+28.2132 	EXP 	show_condition_text: autoDraw = True
+28.2136 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'cradle')])
+28.2291 	EXP 	show_condition_text: autoDraw = False
+28.2291 	EXP 	show_condition_text: text = 'cradle'
+28.2291 	EXP 	show_condition_text: autoDraw = True
+28.2468 	EXP 	show_condition_text: autoDraw = False
+28.2468 	EXP 	show_condition_text: text = '****'
+28.2468 	EXP 	show_condition_text: autoDraw = True
+28.2632 	EXP 	show_condition_text: text = '****'
+28.2632 	EXP 	show_condition_text: autoDraw = True
+28.2800 	EXP 	show_condition_text: text = '****'
+28.2800 	EXP 	show_condition_text: autoDraw = True
+28.2966 	EXP 	show_condition_text: text = '****'
+28.2966 	EXP 	show_condition_text: autoDraw = True
+28.3128 	EXP 	show_condition_text: text = '****'
+28.3128 	EXP 	show_condition_text: autoDraw = True
+28.3293 	EXP 	show_condition_text: text = '****'
+28.3293 	EXP 	show_condition_text: autoDraw = True
+28.3469 	EXP 	show_condition_text: text = '****'
+28.3469 	EXP 	show_condition_text: autoDraw = True
+28.3630 	EXP 	show_condition_text: text = '****'
+28.3630 	EXP 	show_condition_text: autoDraw = True
+28.3801 	EXP 	show_condition_text: text = '****'
+28.3801 	EXP 	show_condition_text: autoDraw = True
+28.3959 	EXP 	show_condition_text: text = '****'
+28.3959 	EXP 	show_condition_text: autoDraw = True
+28.4126 	EXP 	show_condition_text: text = '****'
+28.4126 	EXP 	show_condition_text: autoDraw = True
+28.4302 	EXP 	show_condition_text: text = '****'
+28.4302 	EXP 	show_condition_text: autoDraw = True
+28.4462 	EXP 	show_condition_text: text = '****'
+28.4462 	EXP 	show_condition_text: autoDraw = True
+28.4634 	EXP 	show_condition_text: text = '****'
+28.4634 	EXP 	show_condition_text: autoDraw = True
+28.4796 	EXP 	show_condition_text: text = '****'
+28.4796 	EXP 	show_condition_text: autoDraw = True
+28.4960 	EXP 	show_condition_text: text = '****'
+28.4960 	EXP 	show_condition_text: autoDraw = True
+28.4987 	DATA 	Keypress: space
+28.5135 	EXP 	show_condition_text: text = '****'
+28.5135 	EXP 	show_condition_text: autoDraw = True
+28.5295 	EXP 	show_condition_text: text = '****'
+28.5295 	EXP 	show_condition_text: autoDraw = True
+28.5460 	EXP 	show_condition_text: text = '****'
+28.5460 	EXP 	show_condition_text: autoDraw = True
+28.5633 	EXP 	show_condition_text: text = '****'
+28.5633 	EXP 	show_condition_text: autoDraw = True
+28.5796 	EXP 	show_condition_text: text = '****'
+28.5796 	EXP 	show_condition_text: autoDraw = True
+28.5966 	EXP 	show_condition_text: text = '****'
+28.5966 	EXP 	show_condition_text: autoDraw = True
+28.6139 	EXP 	New trial (rep=0, index=2): OrderedDict([('wlist_index', 9)])
+28.6219 	EXP 	Imported csvs/9.csv as conditions, 6 conditions, 1 params
+28.6222 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+28.6224 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'continuing')])
+28.6464 	EXP 	show_condition_text: text = 'continuing'
+28.6464 	EXP 	show_condition_text: autoDraw = True
+28.6468 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'plane')])
+28.6634 	EXP 	show_condition_text: autoDraw = False
+28.6634 	EXP 	show_condition_text: text = 'plane'
+28.6634 	EXP 	show_condition_text: autoDraw = True
+28.6641 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'stuck')])
+28.6822 	EXP 	show_condition_text: autoDraw = False
+28.6822 	EXP 	show_condition_text: text = 'stuck'
+28.6822 	EXP 	show_condition_text: autoDraw = True
+28.6829 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'titled')])
+28.7004 	EXP 	show_condition_text: autoDraw = False
+28.7004 	EXP 	show_condition_text: text = 'titled'
+28.7004 	EXP 	show_condition_text: autoDraw = True
+28.7009 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'sing')])
+28.7171 	EXP 	show_condition_text: autoDraw = False
+28.7171 	EXP 	show_condition_text: text = 'sing'
+28.7171 	EXP 	show_condition_text: autoDraw = True
+28.7176 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'bitch')])
+28.7461 	EXP 	show_condition_text: autoDraw = False
+28.7461 	EXP 	show_condition_text: text = 'bitch'
+28.7461 	EXP 	show_condition_text: autoDraw = True
+28.7634 	EXP 	show_condition_text: autoDraw = False
+28.7634 	EXP 	show_condition_text: text = '****'
+28.7634 	EXP 	show_condition_text: autoDraw = True
+28.7791 	EXP 	show_condition_text: text = '****'
+28.7791 	EXP 	show_condition_text: autoDraw = True
+28.7967 	EXP 	show_condition_text: text = '****'
+28.7967 	EXP 	show_condition_text: autoDraw = True
+28.8126 	EXP 	show_condition_text: text = '****'
+28.8126 	EXP 	show_condition_text: autoDraw = True
+28.8293 	EXP 	show_condition_text: text = '****'
+28.8293 	EXP 	show_condition_text: autoDraw = True
+28.8463 	EXP 	show_condition_text: text = '****'
+28.8463 	EXP 	show_condition_text: autoDraw = True
+28.8631 	EXP 	show_condition_text: text = '****'
+28.8631 	EXP 	show_condition_text: autoDraw = True
+28.8795 	EXP 	show_condition_text: text = '****'
+28.8795 	EXP 	show_condition_text: autoDraw = True
+28.8970 	EXP 	show_condition_text: text = '****'
+28.8970 	EXP 	show_condition_text: autoDraw = True
+28.9139 	EXP 	show_condition_text: text = '****'
+28.9139 	EXP 	show_condition_text: autoDraw = True
+28.9292 	EXP 	show_condition_text: text = '****'
+28.9292 	EXP 	show_condition_text: autoDraw = True
+28.9465 	EXP 	show_condition_text: text = '****'
+28.9465 	EXP 	show_condition_text: autoDraw = True
+28.9633 	EXP 	show_condition_text: text = '****'
+28.9633 	EXP 	show_condition_text: autoDraw = True
+28.9795 	EXP 	show_condition_text: text = '****'
+28.9795 	EXP 	show_condition_text: autoDraw = True
+28.9969 	EXP 	show_condition_text: text = '****'
+28.9969 	EXP 	show_condition_text: autoDraw = True
+29.0133 	EXP 	show_condition_text: text = '****'
+29.0133 	EXP 	show_condition_text: autoDraw = True
+29.0300 	EXP 	show_condition_text: text = '****'
+29.0300 	EXP 	show_condition_text: autoDraw = True
+29.0458 	EXP 	show_condition_text: text = '****'
+29.0458 	EXP 	show_condition_text: autoDraw = True
+29.0482 	DATA 	Keypress: space
+29.0628 	EXP 	show_condition_text: text = '****'
+29.0628 	EXP 	show_condition_text: autoDraw = True
+29.0802 	EXP 	show_condition_text: text = '****'
+29.0802 	EXP 	show_condition_text: autoDraw = True
+29.0959 	EXP 	show_condition_text: text = '****'
+29.0959 	EXP 	show_condition_text: autoDraw = True
+29.1135 	EXP 	show_condition_text: text = '****'
+29.1135 	EXP 	show_condition_text: autoDraw = True
+29.1290 	EXP 	show_condition_text: text = '****'
+29.1290 	EXP 	show_condition_text: autoDraw = True
+29.1467 	EXP 	show_condition_text: text = '****'
+29.1467 	EXP 	show_condition_text: autoDraw = True
+29.1641 	EXP 	New trial (rep=0, index=3): OrderedDict([('wlist_index', 3)])
+29.1679 	EXP 	Imported csvs/3.csv as conditions, 9 conditions, 1 params
+29.1682 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+29.1684 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'custom')])
+29.1966 	EXP 	show_condition_text: text = 'custom'
+29.1966 	EXP 	show_condition_text: autoDraw = True
+29.1973 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'intervention')])
+29.2178 	EXP 	show_condition_text: autoDraw = False
+29.2178 	EXP 	show_condition_text: text = 'intervention'
+29.2178 	EXP 	show_condition_text: autoDraw = True
+29.2184 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'vat')])
+29.2347 	EXP 	show_condition_text: autoDraw = False
+29.2347 	EXP 	show_condition_text: text = 'vat'
+29.2347 	EXP 	show_condition_text: autoDraw = True
+29.2351 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'wow')])
+29.2964 	EXP 	show_condition_text: autoDraw = False
+29.2964 	EXP 	show_condition_text: text = 'wow'
+29.2964 	EXP 	show_condition_text: autoDraw = True
+29.2971 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'considers')])
+29.3152 	EXP 	show_condition_text: autoDraw = False
+29.3152 	EXP 	show_condition_text: text = 'considers'
+29.3152 	EXP 	show_condition_text: autoDraw = True
+29.3159 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'www')])
+29.3321 	EXP 	show_condition_text: autoDraw = False
+29.3321 	EXP 	show_condition_text: text = 'www'
+29.3321 	EXP 	show_condition_text: autoDraw = True
+29.3325 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'silent')])
+29.3492 	EXP 	show_condition_text: autoDraw = False
+29.3492 	EXP 	show_condition_text: text = 'silent'
+29.3492 	EXP 	show_condition_text: autoDraw = True
+29.3496 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'knowledgestorm')])
+29.3801 	EXP 	show_condition_text: autoDraw = False
+29.3801 	EXP 	show_condition_text: text = 'knowledgestorm'
+29.3801 	EXP 	show_condition_text: autoDraw = True
+29.3806 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'smaller')])
+29.3969 	EXP 	show_condition_text: autoDraw = False
+29.3969 	EXP 	show_condition_text: text = 'smaller'
+29.3969 	EXP 	show_condition_text: autoDraw = True
+29.4133 	EXP 	show_condition_text: autoDraw = False
+29.4133 	EXP 	show_condition_text: text = '****'
+29.4133 	EXP 	show_condition_text: autoDraw = True
+29.4301 	EXP 	show_condition_text: text = '****'
+29.4301 	EXP 	show_condition_text: autoDraw = True
+29.4464 	EXP 	show_condition_text: text = '****'
+29.4464 	EXP 	show_condition_text: autoDraw = True
+29.4633 	EXP 	show_condition_text: text = '****'
+29.4633 	EXP 	show_condition_text: autoDraw = True
+29.4802 	EXP 	show_condition_text: text = '****'
+29.4802 	EXP 	show_condition_text: autoDraw = True
+29.4969 	EXP 	show_condition_text: text = '****'
+29.4969 	EXP 	show_condition_text: autoDraw = True
+29.5130 	EXP 	show_condition_text: text = '****'
+29.5130 	EXP 	show_condition_text: autoDraw = True
+29.5301 	EXP 	show_condition_text: text = '****'
+29.5301 	EXP 	show_condition_text: autoDraw = True
+29.5462 	EXP 	show_condition_text: text = '****'
+29.5462 	EXP 	show_condition_text: autoDraw = True
+29.5632 	EXP 	show_condition_text: text = '****'
+29.5632 	EXP 	show_condition_text: autoDraw = True
+29.5792 	EXP 	show_condition_text: text = '****'
+29.5792 	EXP 	show_condition_text: autoDraw = True
+29.5957 	EXP 	show_condition_text: text = '****'
+29.5957 	EXP 	show_condition_text: autoDraw = True
+29.6131 	EXP 	show_condition_text: text = '****'
+29.6131 	EXP 	show_condition_text: autoDraw = True
+29.6293 	EXP 	show_condition_text: text = '****'
+29.6293 	EXP 	show_condition_text: autoDraw = True
+29.6467 	EXP 	show_condition_text: text = '****'
+29.6467 	EXP 	show_condition_text: autoDraw = True
+29.6631 	EXP 	show_condition_text: text = '****'
+29.6631 	EXP 	show_condition_text: autoDraw = True
+29.6801 	EXP 	show_condition_text: text = '****'
+29.6801 	EXP 	show_condition_text: autoDraw = True
+29.6969 	EXP 	show_condition_text: text = '****'
+29.6969 	EXP 	show_condition_text: autoDraw = True
+29.6995 	DATA 	Keypress: space
+29.7137 	EXP 	show_condition_text: text = '****'
+29.7137 	EXP 	show_condition_text: autoDraw = True
+29.7293 	EXP 	show_condition_text: text = '****'
+29.7293 	EXP 	show_condition_text: autoDraw = True
+29.7467 	EXP 	show_condition_text: text = '****'
+29.7467 	EXP 	show_condition_text: autoDraw = True
+29.7636 	EXP 	show_condition_text: text = '****'
+29.7636 	EXP 	show_condition_text: autoDraw = True
+29.7800 	EXP 	show_condition_text: text = '****'
+29.7800 	EXP 	show_condition_text: autoDraw = True
+29.7961 	EXP 	show_condition_text: text = '****'
+29.7961 	EXP 	show_condition_text: autoDraw = True
+29.8133 	EXP 	show_condition_text: text = '****'
+29.8133 	EXP 	show_condition_text: autoDraw = True
+29.8303 	EXP 	New trial (rep=0, index=4): OrderedDict([('wlist_index', 13)])
+29.8331 	EXP 	Imported csvs/13.csv as conditions, 7 conditions, 1 params
+29.8334 	EXP 	Created sequence: random, trialTypes=7, nReps=1, seed=None
+29.8335 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'scanned')])
+29.8495 	EXP 	show_condition_text: text = 'scanned'
+29.8495 	EXP 	show_condition_text: autoDraw = True
+29.8499 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'township')])
+29.8798 	EXP 	show_condition_text: autoDraw = False
+29.8798 	EXP 	show_condition_text: text = 'township'
+29.8798 	EXP 	show_condition_text: autoDraw = True
+29.8802 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'guild')])
+29.8967 	EXP 	show_condition_text: autoDraw = False
+29.8967 	EXP 	show_condition_text: text = 'guild'
+29.8967 	EXP 	show_condition_text: autoDraw = True
+29.8971 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'deaths')])
+29.9132 	EXP 	show_condition_text: autoDraw = False
+29.9132 	EXP 	show_condition_text: text = 'deaths'
+29.9132 	EXP 	show_condition_text: autoDraw = True
+29.9137 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'poems')])
+29.9299 	EXP 	show_condition_text: autoDraw = False
+29.9299 	EXP 	show_condition_text: text = 'poems'
+29.9299 	EXP 	show_condition_text: autoDraw = True
+29.9303 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'measures')])
+29.9469 	EXP 	show_condition_text: autoDraw = False
+29.9469 	EXP 	show_condition_text: text = 'measures'
+29.9469 	EXP 	show_condition_text: autoDraw = True
+29.9474 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'complications')])
+29.9798 	EXP 	show_condition_text: autoDraw = False
+29.9798 	EXP 	show_condition_text: text = 'complications'
+29.9798 	EXP 	show_condition_text: autoDraw = True
+29.9966 	EXP 	show_condition_text: autoDraw = False
+29.9966 	EXP 	show_condition_text: text = '****'
+29.9966 	EXP 	show_condition_text: autoDraw = True
+30.0133 	EXP 	show_condition_text: text = '****'
+30.0133 	EXP 	show_condition_text: autoDraw = True
+30.0299 	EXP 	show_condition_text: text = '****'
+30.0299 	EXP 	show_condition_text: autoDraw = True
+30.0470 	EXP 	show_condition_text: text = '****'
+30.0470 	EXP 	show_condition_text: autoDraw = True
+30.0635 	EXP 	show_condition_text: text = '****'
+30.0635 	EXP 	show_condition_text: autoDraw = True
+30.0801 	EXP 	show_condition_text: text = '****'
+30.0801 	EXP 	show_condition_text: autoDraw = True
+30.0969 	EXP 	show_condition_text: text = '****'
+30.0969 	EXP 	show_condition_text: autoDraw = True
+30.1135 	EXP 	show_condition_text: text = '****'
+30.1135 	EXP 	show_condition_text: autoDraw = True
+30.1299 	EXP 	show_condition_text: text = '****'
+30.1299 	EXP 	show_condition_text: autoDraw = True
+30.1469 	EXP 	show_condition_text: text = '****'
+30.1469 	EXP 	show_condition_text: autoDraw = True
+30.1637 	EXP 	show_condition_text: text = '****'
+30.1637 	EXP 	show_condition_text: autoDraw = True
+30.1802 	EXP 	show_condition_text: text = '****'
+30.1802 	EXP 	show_condition_text: autoDraw = True
+30.1960 	EXP 	show_condition_text: text = '****'
+30.1960 	EXP 	show_condition_text: autoDraw = True
+30.2131 	EXP 	show_condition_text: text = '****'
+30.2131 	EXP 	show_condition_text: autoDraw = True
+30.2303 	EXP 	show_condition_text: text = '****'
+30.2303 	EXP 	show_condition_text: autoDraw = True
+30.2465 	EXP 	show_condition_text: text = '****'
+30.2465 	EXP 	show_condition_text: autoDraw = True
+30.2632 	EXP 	show_condition_text: text = '****'
+30.2632 	EXP 	show_condition_text: autoDraw = True
+30.2664 	DATA 	Keypress: space
+30.2801 	EXP 	show_condition_text: text = '****'
+30.2801 	EXP 	show_condition_text: autoDraw = True
+30.2969 	EXP 	show_condition_text: text = '****'
+30.2969 	EXP 	show_condition_text: autoDraw = True
+30.3132 	EXP 	show_condition_text: text = '****'
+30.3132 	EXP 	show_condition_text: autoDraw = True
+30.3296 	EXP 	show_condition_text: text = '****'
+30.3296 	EXP 	show_condition_text: autoDraw = True
+30.3470 	EXP 	show_condition_text: text = '****'
+30.3470 	EXP 	show_condition_text: autoDraw = True
+30.3632 	EXP 	show_condition_text: text = '****'
+30.3632 	EXP 	show_condition_text: autoDraw = True
+30.3801 	EXP 	New trial (rep=0, index=5): OrderedDict([('wlist_index', 27)])
+30.3839 	EXP 	Imported csvs/27.csv as conditions, 8 conditions, 1 params
+30.3842 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+30.3843 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'him')])
+30.4125 	EXP 	show_condition_text: text = 'him'
+30.4125 	EXP 	show_condition_text: autoDraw = True
+30.4131 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'ski')])
+30.4301 	EXP 	show_condition_text: autoDraw = False
+30.4301 	EXP 	show_condition_text: text = 'ski'
+30.4301 	EXP 	show_condition_text: autoDraw = True
+30.4305 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'say')])
+30.4464 	EXP 	show_condition_text: autoDraw = False
+30.4464 	EXP 	show_condition_text: text = 'say'
+30.4464 	EXP 	show_condition_text: autoDraw = True
+30.4469 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'buyers')])
+30.4652 	EXP 	show_condition_text: autoDraw = False
+30.4652 	EXP 	show_condition_text: text = 'buyers'
+30.4652 	EXP 	show_condition_text: autoDraw = True
+30.4657 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'unable')])
+30.4824 	EXP 	show_condition_text: autoDraw = False
+30.4824 	EXP 	show_condition_text: text = 'unable'
+30.4824 	EXP 	show_condition_text: autoDraw = True
+30.4835 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'douglas')])
+30.5133 	EXP 	show_condition_text: autoDraw = False
+30.5133 	EXP 	show_condition_text: text = 'douglas'
+30.5133 	EXP 	show_condition_text: autoDraw = True
+30.5140 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'safari')])
+30.5322 	EXP 	show_condition_text: autoDraw = False
+30.5322 	EXP 	show_condition_text: text = 'safari'
+30.5322 	EXP 	show_condition_text: autoDraw = True
+30.5327 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'oral')])
+30.5477 	EXP 	show_condition_text: autoDraw = False
+30.5477 	EXP 	show_condition_text: text = 'oral'
+30.5477 	EXP 	show_condition_text: autoDraw = True
+30.5633 	EXP 	show_condition_text: autoDraw = False
+30.5633 	EXP 	show_condition_text: text = '****'
+30.5633 	EXP 	show_condition_text: autoDraw = True
+30.5800 	EXP 	show_condition_text: text = '****'
+30.5800 	EXP 	show_condition_text: autoDraw = True
+30.5963 	EXP 	show_condition_text: text = '****'
+30.5963 	EXP 	show_condition_text: autoDraw = True
+30.6133 	EXP 	show_condition_text: text = '****'
+30.6133 	EXP 	show_condition_text: autoDraw = True
+30.6293 	EXP 	show_condition_text: text = '****'
+30.6293 	EXP 	show_condition_text: autoDraw = True
+30.6467 	EXP 	show_condition_text: text = '****'
+30.6467 	EXP 	show_condition_text: autoDraw = True
+30.6630 	EXP 	show_condition_text: text = '****'
+30.6630 	EXP 	show_condition_text: autoDraw = True
+30.6795 	EXP 	show_condition_text: text = '****'
+30.6795 	EXP 	show_condition_text: autoDraw = True
+30.6964 	EXP 	show_condition_text: text = '****'
+30.6964 	EXP 	show_condition_text: autoDraw = True
+30.7129 	EXP 	show_condition_text: text = '****'
+30.7129 	EXP 	show_condition_text: autoDraw = True
+30.7300 	EXP 	show_condition_text: text = '****'
+30.7300 	EXP 	show_condition_text: autoDraw = True
+30.7470 	EXP 	show_condition_text: text = '****'
+30.7470 	EXP 	show_condition_text: autoDraw = True
+30.7628 	EXP 	show_condition_text: text = '****'
+30.7628 	EXP 	show_condition_text: autoDraw = True
+30.7799 	EXP 	show_condition_text: text = '****'
+30.7799 	EXP 	show_condition_text: autoDraw = True
+30.7964 	EXP 	show_condition_text: text = '****'
+30.7964 	EXP 	show_condition_text: autoDraw = True
+30.8134 	EXP 	show_condition_text: text = '****'
+30.8134 	EXP 	show_condition_text: autoDraw = True
+30.8297 	EXP 	show_condition_text: text = '****'
+30.8297 	EXP 	show_condition_text: autoDraw = True
+30.8469 	EXP 	show_condition_text: text = '****'
+30.8469 	EXP 	show_condition_text: autoDraw = True
+30.8496 	DATA 	Keypress: space
+30.8632 	EXP 	show_condition_text: text = '****'
+30.8632 	EXP 	show_condition_text: autoDraw = True
+30.8796 	EXP 	show_condition_text: text = '****'
+30.8796 	EXP 	show_condition_text: autoDraw = True
+30.8967 	EXP 	show_condition_text: text = '****'
+30.8967 	EXP 	show_condition_text: autoDraw = True
+30.9135 	EXP 	show_condition_text: text = '****'
+30.9135 	EXP 	show_condition_text: autoDraw = True
+30.9292 	EXP 	show_condition_text: text = '****'
+30.9292 	EXP 	show_condition_text: autoDraw = True
+30.9466 	EXP 	show_condition_text: text = '****'
+30.9466 	EXP 	show_condition_text: autoDraw = True
+30.9638 	EXP 	New trial (rep=0, index=6): OrderedDict([('wlist_index', 17)])
+30.9673 	EXP 	Imported csvs/17.csv as conditions, 10 conditions, 1 params
+30.9676 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+30.9678 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'accept')])
+30.9849 	EXP 	show_condition_text: text = 'accept'
+30.9849 	EXP 	show_condition_text: autoDraw = True
+30.9854 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'map')])
+31.0133 	EXP 	show_condition_text: autoDraw = False
+31.0133 	EXP 	show_condition_text: text = 'map'
+31.0133 	EXP 	show_condition_text: autoDraw = True
+31.0138 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'sally')])
+31.0302 	EXP 	show_condition_text: autoDraw = False
+31.0302 	EXP 	show_condition_text: text = 'sally'
+31.0302 	EXP 	show_condition_text: autoDraw = True
+31.0307 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'penetration')])
+31.0490 	EXP 	show_condition_text: autoDraw = False
+31.0490 	EXP 	show_condition_text: text = 'penetration'
+31.0490 	EXP 	show_condition_text: autoDraw = True
+31.0494 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'talent')])
+31.0638 	EXP 	show_condition_text: autoDraw = False
+31.0638 	EXP 	show_condition_text: text = 'talent'
+31.0638 	EXP 	show_condition_text: autoDraw = True
+31.0643 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'places')])
+31.0815 	EXP 	show_condition_text: autoDraw = False
+31.0815 	EXP 	show_condition_text: text = 'places'
+31.0815 	EXP 	show_condition_text: autoDraw = True
+31.0819 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'charging')])
+31.0994 	EXP 	show_condition_text: autoDraw = False
+31.0994 	EXP 	show_condition_text: text = 'charging'
+31.0994 	EXP 	show_condition_text: autoDraw = True
+31.0998 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'adaptor')])
+31.1163 	EXP 	show_condition_text: autoDraw = False
+31.1163 	EXP 	show_condition_text: text = 'adaptor'
+31.1163 	EXP 	show_condition_text: autoDraw = True
+31.1167 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'scott')])
+31.1338 	EXP 	show_condition_text: autoDraw = False
+31.1338 	EXP 	show_condition_text: text = 'scott'
+31.1338 	EXP 	show_condition_text: autoDraw = True
+31.1342 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'potatoes')])
+31.1510 	EXP 	show_condition_text: autoDraw = False
+31.1510 	EXP 	show_condition_text: text = 'potatoes'
+31.1510 	EXP 	show_condition_text: autoDraw = True
+31.1659 	EXP 	show_condition_text: autoDraw = False
+31.1659 	EXP 	show_condition_text: text = '****'
+31.1659 	EXP 	show_condition_text: autoDraw = True
+31.1802 	EXP 	show_condition_text: text = '****'
+31.1802 	EXP 	show_condition_text: autoDraw = True
+31.1969 	EXP 	show_condition_text: text = '****'
+31.1969 	EXP 	show_condition_text: autoDraw = True
+31.2128 	EXP 	show_condition_text: text = '****'
+31.2128 	EXP 	show_condition_text: autoDraw = True
+31.2301 	EXP 	show_condition_text: text = '****'
+31.2301 	EXP 	show_condition_text: autoDraw = True
+31.2468 	EXP 	show_condition_text: text = '****'
+31.2468 	EXP 	show_condition_text: autoDraw = True
+31.2627 	EXP 	show_condition_text: text = '****'
+31.2627 	EXP 	show_condition_text: autoDraw = True
+31.2800 	EXP 	show_condition_text: text = '****'
+31.2800 	EXP 	show_condition_text: autoDraw = True
+31.2967 	EXP 	show_condition_text: text = '****'
+31.2967 	EXP 	show_condition_text: autoDraw = True
+31.3131 	EXP 	show_condition_text: text = '****'
+31.3131 	EXP 	show_condition_text: autoDraw = True
+31.3297 	EXP 	show_condition_text: text = '****'
+31.3297 	EXP 	show_condition_text: autoDraw = True
+31.3465 	EXP 	show_condition_text: text = '****'
+31.3465 	EXP 	show_condition_text: autoDraw = True
+31.3635 	EXP 	show_condition_text: text = '****'
+31.3635 	EXP 	show_condition_text: autoDraw = True
+31.3801 	EXP 	show_condition_text: text = '****'
+31.3801 	EXP 	show_condition_text: autoDraw = True
+31.3962 	EXP 	show_condition_text: text = '****'
+31.3962 	EXP 	show_condition_text: autoDraw = True
+31.4130 	EXP 	show_condition_text: text = '****'
+31.4130 	EXP 	show_condition_text: autoDraw = True
+31.4162 	DATA 	Keypress: space
+31.4292 	EXP 	show_condition_text: text = '****'
+31.4292 	EXP 	show_condition_text: autoDraw = True
+31.4460 	EXP 	show_condition_text: text = '****'
+31.4460 	EXP 	show_condition_text: autoDraw = True
+31.4630 	EXP 	show_condition_text: text = '****'
+31.4630 	EXP 	show_condition_text: autoDraw = True
+31.4802 	EXP 	show_condition_text: text = '****'
+31.4802 	EXP 	show_condition_text: autoDraw = True
+31.4971 	EXP 	show_condition_text: text = '****'
+31.4971 	EXP 	show_condition_text: autoDraw = True
+31.5133 	EXP 	show_condition_text: text = '****'
+31.5133 	EXP 	show_condition_text: autoDraw = True
+31.5304 	EXP 	New trial (rep=0, index=7): OrderedDict([('wlist_index', 2)])
+31.5337 	EXP 	Imported csvs/2.csv as conditions, 8 conditions, 1 params
+31.5340 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+31.5341 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'assessed')])
+31.5630 	EXP 	show_condition_text: text = 'assessed'
+31.5630 	EXP 	show_condition_text: autoDraw = True
+31.5635 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'representation')])
+31.5849 	EXP 	show_condition_text: autoDraw = False
+31.5849 	EXP 	show_condition_text: text = 'representation'
+31.5849 	EXP 	show_condition_text: autoDraw = True
+31.5853 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'milfhunter')])
+31.6130 	EXP 	show_condition_text: autoDraw = False
+31.6130 	EXP 	show_condition_text: text = 'milfhunter'
+31.6130 	EXP 	show_condition_text: autoDraw = True
+31.6134 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'protected')])
+31.6307 	EXP 	show_condition_text: autoDraw = False
+31.6307 	EXP 	show_condition_text: text = 'protected'
+31.6307 	EXP 	show_condition_text: autoDraw = True
+31.6312 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'xl')])
+31.6462 	EXP 	show_condition_text: autoDraw = False
+31.6462 	EXP 	show_condition_text: text = 'xl'
+31.6462 	EXP 	show_condition_text: autoDraw = True
+31.6466 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'guide')])
+31.6634 	EXP 	show_condition_text: autoDraw = False
+31.6634 	EXP 	show_condition_text: text = 'guide'
+31.6634 	EXP 	show_condition_text: autoDraw = True
+31.6639 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'look')])
+31.6799 	EXP 	show_condition_text: autoDraw = False
+31.6799 	EXP 	show_condition_text: text = 'look'
+31.6799 	EXP 	show_condition_text: autoDraw = True
+31.6803 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'noble')])
+31.6967 	EXP 	show_condition_text: autoDraw = False
+31.6967 	EXP 	show_condition_text: text = 'noble'
+31.6967 	EXP 	show_condition_text: autoDraw = True
+31.7131 	EXP 	show_condition_text: autoDraw = False
+31.7131 	EXP 	show_condition_text: text = '****'
+31.7131 	EXP 	show_condition_text: autoDraw = True
+31.7301 	EXP 	show_condition_text: text = '****'
+31.7301 	EXP 	show_condition_text: autoDraw = True
+31.7468 	EXP 	show_condition_text: text = '****'
+31.7468 	EXP 	show_condition_text: autoDraw = True
+31.7632 	EXP 	show_condition_text: text = '****'
+31.7632 	EXP 	show_condition_text: autoDraw = True
+31.7802 	EXP 	show_condition_text: text = '****'
+31.7802 	EXP 	show_condition_text: autoDraw = True
+31.7959 	EXP 	show_condition_text: text = '****'
+31.7959 	EXP 	show_condition_text: autoDraw = True
+31.8122 	EXP 	show_condition_text: text = '****'
+31.8122 	EXP 	show_condition_text: autoDraw = True
+31.8291 	EXP 	show_condition_text: text = '****'
+31.8291 	EXP 	show_condition_text: autoDraw = True
+31.8467 	EXP 	show_condition_text: text = '****'
+31.8467 	EXP 	show_condition_text: autoDraw = True
+31.8635 	EXP 	show_condition_text: text = '****'
+31.8635 	EXP 	show_condition_text: autoDraw = True
+31.8803 	EXP 	show_condition_text: text = '****'
+31.8803 	EXP 	show_condition_text: autoDraw = True
+31.8967 	EXP 	show_condition_text: text = '****'
+31.8967 	EXP 	show_condition_text: autoDraw = True
+31.9136 	EXP 	show_condition_text: text = '****'
+31.9136 	EXP 	show_condition_text: autoDraw = True
+31.9295 	EXP 	show_condition_text: text = '****'
+31.9295 	EXP 	show_condition_text: autoDraw = True
+31.9469 	EXP 	show_condition_text: text = '****'
+31.9469 	EXP 	show_condition_text: autoDraw = True
+31.9631 	EXP 	show_condition_text: text = '****'
+31.9631 	EXP 	show_condition_text: autoDraw = True
+31.9795 	EXP 	show_condition_text: text = '****'
+31.9795 	EXP 	show_condition_text: autoDraw = True
+31.9971 	EXP 	show_condition_text: text = '****'
+31.9971 	EXP 	show_condition_text: autoDraw = True
+31.9997 	DATA 	Keypress: space
+32.0128 	EXP 	show_condition_text: text = '****'
+32.0128 	EXP 	show_condition_text: autoDraw = True
+32.0299 	EXP 	show_condition_text: text = '****'
+32.0299 	EXP 	show_condition_text: autoDraw = True
+32.0471 	EXP 	show_condition_text: text = '****'
+32.0471 	EXP 	show_condition_text: autoDraw = True
+32.0629 	EXP 	show_condition_text: text = '****'
+32.0629 	EXP 	show_condition_text: autoDraw = True
+32.0794 	EXP 	show_condition_text: text = '****'
+32.0794 	EXP 	show_condition_text: autoDraw = True
+32.0973 	EXP 	New trial (rep=0, index=3): OrderedDict([('condition', 2)])
+32.1003 	EXP 	Imported csvs/condition_2_wlists_indices.csv as conditions, 8 conditions, 1 params
+32.1006 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+32.1009 	EXP 	New trial (rep=0, index=0): OrderedDict([('wlist_index', 8)])
+32.1042 	EXP 	Imported csvs/8.csv as conditions, 11 conditions, 1 params
+32.1045 	EXP 	Created sequence: random, trialTypes=11, nReps=1, seed=None
+32.1047 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'operate')])
+32.1294 	EXP 	show_condition_text: text = 'operate'
+32.1294 	EXP 	show_condition_text: autoDraw = True
+32.1298 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'canberra')])
+32.1470 	EXP 	show_condition_text: autoDraw = False
+32.1470 	EXP 	show_condition_text: text = 'canberra'
+32.1470 	EXP 	show_condition_text: autoDraw = True
+32.1474 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'draft')])
+32.1637 	EXP 	show_condition_text: autoDraw = False
+32.1637 	EXP 	show_condition_text: text = 'draft'
+32.1637 	EXP 	show_condition_text: autoDraw = True
+32.1641 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'luke')])
+32.1803 	EXP 	show_condition_text: autoDraw = False
+32.1803 	EXP 	show_condition_text: text = 'luke'
+32.1803 	EXP 	show_condition_text: autoDraw = True
+32.1808 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'sir')])
+32.1966 	EXP 	show_condition_text: autoDraw = False
+32.1966 	EXP 	show_condition_text: text = 'sir'
+32.1966 	EXP 	show_condition_text: autoDraw = True
+32.1972 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'elections')])
+32.2155 	EXP 	show_condition_text: autoDraw = False
+32.2155 	EXP 	show_condition_text: text = 'elections'
+32.2155 	EXP 	show_condition_text: autoDraw = True
+32.2159 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'educated')])
+32.2309 	EXP 	show_condition_text: autoDraw = False
+32.2309 	EXP 	show_condition_text: text = 'educated'
+32.2309 	EXP 	show_condition_text: autoDraw = True
+32.2313 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'eddie')])
+32.2471 	EXP 	show_condition_text: autoDraw = False
+32.2471 	EXP 	show_condition_text: text = 'eddie'
+32.2471 	EXP 	show_condition_text: autoDraw = True
+32.2477 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'follows')])
+32.2636 	EXP 	show_condition_text: autoDraw = False
+32.2636 	EXP 	show_condition_text: text = 'follows'
+32.2636 	EXP 	show_condition_text: autoDraw = True
+32.2642 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'wellness')])
+32.2824 	EXP 	show_condition_text: autoDraw = False
+32.2824 	EXP 	show_condition_text: text = 'wellness'
+32.2824 	EXP 	show_condition_text: autoDraw = True
+32.2834 	EXP 	New trial (rep=0, index=10): OrderedDict([('word', 'basics')])
+32.3131 	EXP 	show_condition_text: autoDraw = False
+32.3131 	EXP 	show_condition_text: text = 'basics'
+32.3131 	EXP 	show_condition_text: autoDraw = True
+32.3300 	EXP 	show_condition_text: autoDraw = False
+32.3300 	EXP 	show_condition_text: text = '****'
+32.3300 	EXP 	show_condition_text: autoDraw = True
+32.3463 	EXP 	show_condition_text: text = '****'
+32.3463 	EXP 	show_condition_text: autoDraw = True
+32.3634 	EXP 	show_condition_text: text = '****'
+32.3634 	EXP 	show_condition_text: autoDraw = True
+32.3800 	EXP 	show_condition_text: text = '****'
+32.3800 	EXP 	show_condition_text: autoDraw = True
+32.3959 	EXP 	show_condition_text: text = '****'
+32.3959 	EXP 	show_condition_text: autoDraw = True
+32.4133 	EXP 	show_condition_text: text = '****'
+32.4133 	EXP 	show_condition_text: autoDraw = True
+32.4299 	EXP 	show_condition_text: text = '****'
+32.4299 	EXP 	show_condition_text: autoDraw = True
+32.4462 	EXP 	show_condition_text: text = '****'
+32.4462 	EXP 	show_condition_text: autoDraw = True
+32.4632 	EXP 	show_condition_text: text = '****'
+32.4632 	EXP 	show_condition_text: autoDraw = True
+32.4801 	EXP 	show_condition_text: text = '****'
+32.4801 	EXP 	show_condition_text: autoDraw = True
+32.4961 	EXP 	show_condition_text: text = '****'
+32.4961 	EXP 	show_condition_text: autoDraw = True
+32.5135 	EXP 	show_condition_text: text = '****'
+32.5135 	EXP 	show_condition_text: autoDraw = True
+32.5292 	EXP 	show_condition_text: text = '****'
+32.5292 	EXP 	show_condition_text: autoDraw = True
+32.5461 	EXP 	show_condition_text: text = '****'
+32.5461 	EXP 	show_condition_text: autoDraw = True
+32.5633 	EXP 	show_condition_text: text = '****'
+32.5633 	EXP 	show_condition_text: autoDraw = True
+32.5668 	DATA 	Keypress: space
+32.5794 	EXP 	show_condition_text: text = '****'
+32.5794 	EXP 	show_condition_text: autoDraw = True
+32.5970 	EXP 	show_condition_text: text = '****'
+32.5970 	EXP 	show_condition_text: autoDraw = True
+32.6128 	EXP 	show_condition_text: text = '****'
+32.6128 	EXP 	show_condition_text: autoDraw = True
+32.6301 	EXP 	show_condition_text: text = '****'
+32.6301 	EXP 	show_condition_text: autoDraw = True
+32.6469 	EXP 	show_condition_text: text = '****'
+32.6469 	EXP 	show_condition_text: autoDraw = True
+32.6630 	EXP 	show_condition_text: text = '****'
+32.6630 	EXP 	show_condition_text: autoDraw = True
+32.6793 	EXP 	show_condition_text: text = '****'
+32.6793 	EXP 	show_condition_text: autoDraw = True
+32.6972 	EXP 	New trial (rep=0, index=1): OrderedDict([('wlist_index', 10)])
+32.7004 	EXP 	Imported csvs/10.csv as conditions, 7 conditions, 1 params
+32.7007 	EXP 	Created sequence: random, trialTypes=7, nReps=1, seed=None
+32.7009 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'magnificent')])
+32.7305 	EXP 	show_condition_text: text = 'magnificent'
+32.7305 	EXP 	show_condition_text: autoDraw = True
+32.7311 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'muscle')])
+32.7488 	EXP 	show_condition_text: autoDraw = False
+32.7488 	EXP 	show_condition_text: text = 'muscle'
+32.7488 	EXP 	show_condition_text: autoDraw = True
+32.7495 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'facial')])
+32.7677 	EXP 	show_condition_text: autoDraw = False
+32.7677 	EXP 	show_condition_text: text = 'facial'
+32.7677 	EXP 	show_condition_text: autoDraw = True
+32.7682 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'evaluating')])
+32.7964 	EXP 	show_condition_text: autoDraw = False
+32.7964 	EXP 	show_condition_text: text = 'evaluating'
+32.7964 	EXP 	show_condition_text: autoDraw = True
+32.7971 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'bind')])
+32.8134 	EXP 	show_condition_text: autoDraw = False
+32.8134 	EXP 	show_condition_text: text = 'bind'
+32.8134 	EXP 	show_condition_text: autoDraw = True
+32.8140 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'glasses')])
+32.8330 	EXP 	show_condition_text: autoDraw = False
+32.8330 	EXP 	show_condition_text: text = 'glasses'
+32.8330 	EXP 	show_condition_text: autoDraw = True
+32.8334 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'endless')])
+32.8496 	EXP 	show_condition_text: autoDraw = False
+32.8496 	EXP 	show_condition_text: text = 'endless'
+32.8496 	EXP 	show_condition_text: autoDraw = True
+32.8653 	EXP 	show_condition_text: autoDraw = False
+32.8653 	EXP 	show_condition_text: text = '****'
+32.8653 	EXP 	show_condition_text: autoDraw = True
+32.8792 	EXP 	show_condition_text: text = '****'
+32.8792 	EXP 	show_condition_text: autoDraw = True
+32.8969 	EXP 	show_condition_text: text = '****'
+32.8969 	EXP 	show_condition_text: autoDraw = True
+32.9130 	EXP 	show_condition_text: text = '****'
+32.9130 	EXP 	show_condition_text: autoDraw = True
+32.9293 	EXP 	show_condition_text: text = '****'
+32.9293 	EXP 	show_condition_text: autoDraw = True
+32.9461 	EXP 	show_condition_text: text = '****'
+32.9461 	EXP 	show_condition_text: autoDraw = True
+32.9625 	EXP 	show_condition_text: text = '****'
+32.9625 	EXP 	show_condition_text: autoDraw = True
+32.9794 	EXP 	show_condition_text: text = '****'
+32.9794 	EXP 	show_condition_text: autoDraw = True
+32.9968 	EXP 	show_condition_text: text = '****'
+32.9968 	EXP 	show_condition_text: autoDraw = True
+33.0132 	EXP 	show_condition_text: text = '****'
+33.0132 	EXP 	show_condition_text: autoDraw = True
+33.0303 	EXP 	show_condition_text: text = '****'
+33.0303 	EXP 	show_condition_text: autoDraw = True
+33.0465 	EXP 	show_condition_text: text = '****'
+33.0465 	EXP 	show_condition_text: autoDraw = True
+33.0635 	EXP 	show_condition_text: text = '****'
+33.0635 	EXP 	show_condition_text: autoDraw = True
+33.0799 	EXP 	show_condition_text: text = '****'
+33.0799 	EXP 	show_condition_text: autoDraw = True
+33.0963 	EXP 	show_condition_text: text = '****'
+33.0963 	EXP 	show_condition_text: autoDraw = True
+33.1132 	EXP 	show_condition_text: text = '****'
+33.1132 	EXP 	show_condition_text: autoDraw = True
+33.1299 	EXP 	show_condition_text: text = '****'
+33.1299 	EXP 	show_condition_text: autoDraw = True
+33.1326 	DATA 	Keypress: space
+33.1459 	EXP 	show_condition_text: text = '****'
+33.1459 	EXP 	show_condition_text: autoDraw = True
+33.1632 	EXP 	show_condition_text: text = '****'
+33.1632 	EXP 	show_condition_text: autoDraw = True
+33.1801 	EXP 	show_condition_text: text = '****'
+33.1801 	EXP 	show_condition_text: autoDraw = True
+33.1967 	EXP 	show_condition_text: text = '****'
+33.1967 	EXP 	show_condition_text: autoDraw = True
+33.2125 	EXP 	show_condition_text: text = '****'
+33.2125 	EXP 	show_condition_text: autoDraw = True
+33.2299 	EXP 	show_condition_text: text = '****'
+33.2299 	EXP 	show_condition_text: autoDraw = True
+33.2456 	EXP 	show_condition_text: text = '****'
+33.2456 	EXP 	show_condition_text: autoDraw = True
+33.2641 	EXP 	New trial (rep=0, index=2): OrderedDict([('wlist_index', 25)])
+33.2746 	EXP 	Imported csvs/25.csv as conditions, 9 conditions, 1 params
+33.2749 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+33.2751 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'expect')])
+33.2961 	EXP 	show_condition_text: text = 'expect'
+33.2961 	EXP 	show_condition_text: autoDraw = True
+33.2966 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'secretary')])
+33.3133 	EXP 	show_condition_text: autoDraw = False
+33.3133 	EXP 	show_condition_text: text = 'secretary'
+33.3133 	EXP 	show_condition_text: autoDraw = True
+33.3137 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'se')])
+33.3300 	EXP 	show_condition_text: autoDraw = False
+33.3300 	EXP 	show_condition_text: text = 'se'
+33.3300 	EXP 	show_condition_text: autoDraw = True
+33.3307 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'travels')])
+33.3480 	EXP 	show_condition_text: autoDraw = False
+33.3480 	EXP 	show_condition_text: text = 'travels'
+33.3480 	EXP 	show_condition_text: autoDraw = True
+33.3484 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'altered')])
+33.3632 	EXP 	show_condition_text: autoDraw = False
+33.3632 	EXP 	show_condition_text: text = 'altered'
+33.3632 	EXP 	show_condition_text: autoDraw = True
+33.3637 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'argument')])
+33.3822 	EXP 	show_condition_text: autoDraw = False
+33.3822 	EXP 	show_condition_text: text = 'argument'
+33.3822 	EXP 	show_condition_text: autoDraw = True
+33.3826 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'spank')])
+33.3992 	EXP 	show_condition_text: autoDraw = False
+33.3992 	EXP 	show_condition_text: text = 'spank'
+33.3992 	EXP 	show_condition_text: autoDraw = True
+33.3997 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'renew')])
+33.4155 	EXP 	show_condition_text: autoDraw = False
+33.4155 	EXP 	show_condition_text: text = 'renew'
+33.4155 	EXP 	show_condition_text: autoDraw = True
+33.4160 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'apr')])
+33.4326 	EXP 	show_condition_text: autoDraw = False
+33.4326 	EXP 	show_condition_text: text = 'apr'
+33.4326 	EXP 	show_condition_text: autoDraw = True
+33.4490 	EXP 	show_condition_text: autoDraw = False
+33.4490 	EXP 	show_condition_text: text = '****'
+33.4490 	EXP 	show_condition_text: autoDraw = True
+33.4630 	EXP 	show_condition_text: text = '****'
+33.4630 	EXP 	show_condition_text: autoDraw = True
+33.4795 	EXP 	show_condition_text: text = '****'
+33.4795 	EXP 	show_condition_text: autoDraw = True
+33.4964 	EXP 	show_condition_text: text = '****'
+33.4964 	EXP 	show_condition_text: autoDraw = True
+33.5132 	EXP 	show_condition_text: text = '****'
+33.5132 	EXP 	show_condition_text: autoDraw = True
+33.5297 	EXP 	show_condition_text: text = '****'
+33.5297 	EXP 	show_condition_text: autoDraw = True
+33.5468 	EXP 	show_condition_text: text = '****'
+33.5468 	EXP 	show_condition_text: autoDraw = True
+33.5633 	EXP 	show_condition_text: text = '****'
+33.5633 	EXP 	show_condition_text: autoDraw = True
+33.5798 	EXP 	show_condition_text: text = '****'
+33.5798 	EXP 	show_condition_text: autoDraw = True
+33.5966 	EXP 	show_condition_text: text = '****'
+33.5966 	EXP 	show_condition_text: autoDraw = True
+33.6128 	EXP 	show_condition_text: text = '****'
+33.6128 	EXP 	show_condition_text: autoDraw = True
+33.6299 	EXP 	show_condition_text: text = '****'
+33.6299 	EXP 	show_condition_text: autoDraw = True
+33.6468 	EXP 	show_condition_text: text = '****'
+33.6468 	EXP 	show_condition_text: autoDraw = True
+33.6626 	EXP 	show_condition_text: text = '****'
+33.6626 	EXP 	show_condition_text: autoDraw = True
+33.6794 	EXP 	show_condition_text: text = '****'
+33.6794 	EXP 	show_condition_text: autoDraw = True
+33.6818 	DATA 	Keypress: space
+33.6959 	EXP 	show_condition_text: text = '****'
+33.6959 	EXP 	show_condition_text: autoDraw = True
+33.7129 	EXP 	show_condition_text: text = '****'
+33.7129 	EXP 	show_condition_text: autoDraw = True
+33.7293 	EXP 	show_condition_text: text = '****'
+33.7293 	EXP 	show_condition_text: autoDraw = True
+33.7464 	EXP 	show_condition_text: text = '****'
+33.7464 	EXP 	show_condition_text: autoDraw = True
+33.7632 	EXP 	show_condition_text: text = '****'
+33.7632 	EXP 	show_condition_text: autoDraw = True
+33.7799 	EXP 	show_condition_text: text = '****'
+33.7799 	EXP 	show_condition_text: autoDraw = True
+33.7969 	EXP 	show_condition_text: text = '****'
+33.7969 	EXP 	show_condition_text: autoDraw = True
+33.8136 	EXP 	New trial (rep=0, index=3): OrderedDict([('wlist_index', 26)])
+33.8169 	EXP 	Imported csvs/26.csv as conditions, 5 conditions, 1 params
+33.8172 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+33.8174 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'wholesale')])
+33.8351 	EXP 	show_condition_text: text = 'wholesale'
+33.8351 	EXP 	show_condition_text: autoDraw = True
+33.8355 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'sheer')])
+33.8629 	EXP 	show_condition_text: autoDraw = False
+33.8629 	EXP 	show_condition_text: text = 'sheer'
+33.8629 	EXP 	show_condition_text: autoDraw = True
+33.8633 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'portable')])
+33.8800 	EXP 	show_condition_text: autoDraw = False
+33.8800 	EXP 	show_condition_text: text = 'portable'
+33.8800 	EXP 	show_condition_text: autoDraw = True
+33.8805 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'lingerie')])
+33.8981 	EXP 	show_condition_text: autoDraw = False
+33.8981 	EXP 	show_condition_text: text = 'lingerie'
+33.8981 	EXP 	show_condition_text: autoDraw = True
+33.8986 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'peace')])
+33.9151 	EXP 	show_condition_text: autoDraw = False
+33.9151 	EXP 	show_condition_text: text = 'peace'
+33.9151 	EXP 	show_condition_text: autoDraw = True
+33.9301 	EXP 	show_condition_text: autoDraw = False
+33.9301 	EXP 	show_condition_text: text = '****'
+33.9301 	EXP 	show_condition_text: autoDraw = True
+33.9469 	EXP 	show_condition_text: text = '****'
+33.9469 	EXP 	show_condition_text: autoDraw = True
+33.9630 	EXP 	show_condition_text: text = '****'
+33.9630 	EXP 	show_condition_text: autoDraw = True
+33.9800 	EXP 	show_condition_text: text = '****'
+33.9800 	EXP 	show_condition_text: autoDraw = True
+33.9966 	EXP 	show_condition_text: text = '****'
+33.9966 	EXP 	show_condition_text: autoDraw = True
+34.0135 	EXP 	show_condition_text: text = '****'
+34.0135 	EXP 	show_condition_text: autoDraw = True
+34.0303 	EXP 	show_condition_text: text = '****'
+34.0303 	EXP 	show_condition_text: autoDraw = True
+34.0468 	EXP 	show_condition_text: text = '****'
+34.0468 	EXP 	show_condition_text: autoDraw = True
+34.0622 	EXP 	show_condition_text: text = '****'
+34.0622 	EXP 	show_condition_text: autoDraw = True
+34.0796 	EXP 	show_condition_text: text = '****'
+34.0796 	EXP 	show_condition_text: autoDraw = True
+34.0969 	EXP 	show_condition_text: text = '****'
+34.0969 	EXP 	show_condition_text: autoDraw = True
+34.1130 	EXP 	show_condition_text: text = '****'
+34.1130 	EXP 	show_condition_text: autoDraw = True
+34.1294 	EXP 	show_condition_text: text = '****'
+34.1294 	EXP 	show_condition_text: autoDraw = True
+34.1463 	EXP 	show_condition_text: text = '****'
+34.1463 	EXP 	show_condition_text: autoDraw = True
+34.1635 	EXP 	show_condition_text: text = '****'
+34.1635 	EXP 	show_condition_text: autoDraw = True
+34.1799 	EXP 	show_condition_text: text = '****'
+34.1799 	EXP 	show_condition_text: autoDraw = True
+34.1969 	EXP 	show_condition_text: text = '****'
+34.1969 	EXP 	show_condition_text: autoDraw = True
+34.2134 	EXP 	show_condition_text: text = '****'
+34.2134 	EXP 	show_condition_text: autoDraw = True
+34.2298 	EXP 	show_condition_text: text = '****'
+34.2298 	EXP 	show_condition_text: autoDraw = True
+34.2469 	EXP 	show_condition_text: text = '****'
+34.2469 	EXP 	show_condition_text: autoDraw = True
+34.2633 	EXP 	show_condition_text: text = '****'
+34.2633 	EXP 	show_condition_text: autoDraw = True
+34.2800 	EXP 	show_condition_text: text = '****'
+34.2800 	EXP 	show_condition_text: autoDraw = True
+34.2969 	EXP 	show_condition_text: text = '****'
+34.2969 	EXP 	show_condition_text: autoDraw = True
+34.3131 	EXP 	show_condition_text: text = '****'
+34.3131 	EXP 	show_condition_text: autoDraw = True
+34.3301 	EXP 	show_condition_text: text = '****'
+34.3301 	EXP 	show_condition_text: autoDraw = True
+34.3467 	EXP 	show_condition_text: text = '****'
+34.3467 	EXP 	show_condition_text: autoDraw = True
+34.3634 	EXP 	show_condition_text: text = '****'
+34.3634 	EXP 	show_condition_text: autoDraw = True
+34.3798 	EXP 	show_condition_text: text = '****'
+34.3798 	EXP 	show_condition_text: autoDraw = True
+34.3967 	EXP 	show_condition_text: text = '****'
+34.3967 	EXP 	show_condition_text: autoDraw = True
+34.4127 	EXP 	show_condition_text: text = '****'
+34.4127 	EXP 	show_condition_text: autoDraw = True
+34.4300 	EXP 	show_condition_text: text = '****'
+34.4300 	EXP 	show_condition_text: autoDraw = True
+34.4461 	EXP 	show_condition_text: text = '****'
+34.4461 	EXP 	show_condition_text: autoDraw = True
+34.4635 	EXP 	show_condition_text: text = '****'
+34.4635 	EXP 	show_condition_text: autoDraw = True
+34.4791 	EXP 	show_condition_text: text = '****'
+34.4791 	EXP 	show_condition_text: autoDraw = True
+34.4967 	EXP 	show_condition_text: text = '****'
+34.4967 	EXP 	show_condition_text: autoDraw = True
+34.5128 	EXP 	show_condition_text: text = '****'
+34.5128 	EXP 	show_condition_text: autoDraw = True
+34.5300 	EXP 	show_condition_text: text = '****'
+34.5300 	EXP 	show_condition_text: autoDraw = True
+34.5463 	EXP 	show_condition_text: text = '****'
+34.5463 	EXP 	show_condition_text: autoDraw = True
+34.5636 	EXP 	show_condition_text: text = '****'
+34.5636 	EXP 	show_condition_text: autoDraw = True
+34.5670 	DATA 	Keypress: space
+34.5799 	EXP 	show_condition_text: text = '****'
+34.5799 	EXP 	show_condition_text: autoDraw = True
+34.5967 	EXP 	show_condition_text: text = '****'
+34.5967 	EXP 	show_condition_text: autoDraw = True
+34.6130 	EXP 	show_condition_text: text = '****'
+34.6130 	EXP 	show_condition_text: autoDraw = True
+34.6301 	EXP 	show_condition_text: text = '****'
+34.6301 	EXP 	show_condition_text: autoDraw = True
+34.6469 	EXP 	show_condition_text: text = '****'
+34.6469 	EXP 	show_condition_text: autoDraw = True
+34.6626 	EXP 	show_condition_text: text = '****'
+34.6626 	EXP 	show_condition_text: autoDraw = True
+34.6800 	EXP 	show_condition_text: text = '****'
+34.6800 	EXP 	show_condition_text: autoDraw = True
+34.6968 	EXP 	New trial (rep=0, index=4): OrderedDict([('wlist_index', 19)])
+34.7069 	EXP 	Imported csvs/19.csv as conditions, 6 conditions, 1 params
+34.7073 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+34.7075 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'il')])
+34.7299 	EXP 	show_condition_text: text = 'il'
+34.7299 	EXP 	show_condition_text: autoDraw = True
+34.7303 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'academics')])
+34.7473 	EXP 	show_condition_text: autoDraw = False
+34.7473 	EXP 	show_condition_text: text = 'academics'
+34.7473 	EXP 	show_condition_text: autoDraw = True
+34.7479 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'acc')])
+34.7635 	EXP 	show_condition_text: autoDraw = False
+34.7635 	EXP 	show_condition_text: text = 'acc'
+34.7635 	EXP 	show_condition_text: autoDraw = True
+34.7639 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'lowest')])
+34.7820 	EXP 	show_condition_text: autoDraw = False
+34.7820 	EXP 	show_condition_text: text = 'lowest'
+34.7820 	EXP 	show_condition_text: autoDraw = True
+34.7824 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'hiring')])
+34.8004 	EXP 	show_condition_text: autoDraw = False
+34.8004 	EXP 	show_condition_text: text = 'hiring'
+34.8004 	EXP 	show_condition_text: autoDraw = True
+34.8009 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'miniature')])
+34.8302 	EXP 	show_condition_text: autoDraw = False
+34.8302 	EXP 	show_condition_text: text = 'miniature'
+34.8302 	EXP 	show_condition_text: autoDraw = True
+34.8468 	EXP 	show_condition_text: autoDraw = False
+34.8468 	EXP 	show_condition_text: text = '****'
+34.8468 	EXP 	show_condition_text: autoDraw = True
+34.8635 	EXP 	show_condition_text: text = '****'
+34.8635 	EXP 	show_condition_text: autoDraw = True
+34.8793 	EXP 	show_condition_text: text = '****'
+34.8793 	EXP 	show_condition_text: autoDraw = True
+34.8961 	EXP 	show_condition_text: text = '****'
+34.8961 	EXP 	show_condition_text: autoDraw = True
+34.9133 	EXP 	show_condition_text: text = '****'
+34.9133 	EXP 	show_condition_text: autoDraw = True
+34.9298 	EXP 	show_condition_text: text = '****'
+34.9298 	EXP 	show_condition_text: autoDraw = True
+34.9468 	EXP 	show_condition_text: text = '****'
+34.9468 	EXP 	show_condition_text: autoDraw = True
+34.9632 	EXP 	show_condition_text: text = '****'
+34.9632 	EXP 	show_condition_text: autoDraw = True
+34.9802 	EXP 	show_condition_text: text = '****'
+34.9802 	EXP 	show_condition_text: autoDraw = True
+34.9965 	EXP 	show_condition_text: text = '****'
+34.9965 	EXP 	show_condition_text: autoDraw = True
+35.0131 	EXP 	show_condition_text: text = '****'
+35.0131 	EXP 	show_condition_text: autoDraw = True
+35.0160 	DATA 	Keypress: space
+35.0297 	EXP 	show_condition_text: text = '****'
+35.0297 	EXP 	show_condition_text: autoDraw = True
+35.0467 	EXP 	show_condition_text: text = '****'
+35.0467 	EXP 	show_condition_text: autoDraw = True
+35.0626 	EXP 	show_condition_text: text = '****'
+35.0626 	EXP 	show_condition_text: autoDraw = True
+35.0793 	EXP 	show_condition_text: text = '****'
+35.0793 	EXP 	show_condition_text: autoDraw = True
+35.0957 	EXP 	show_condition_text: text = '****'
+35.0957 	EXP 	show_condition_text: autoDraw = True
+35.1128 	EXP 	show_condition_text: text = '****'
+35.1128 	EXP 	show_condition_text: autoDraw = True
+35.1305 	EXP 	New trial (rep=0, index=5): OrderedDict([('wlist_index', 21)])
+35.1340 	EXP 	Imported csvs/21.csv as conditions, 10 conditions, 1 params
+35.1344 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+35.1347 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'protocol')])
+35.1631 	EXP 	show_condition_text: text = 'protocol'
+35.1631 	EXP 	show_condition_text: autoDraw = True
+35.1636 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'influence')])
+35.1816 	EXP 	show_condition_text: autoDraw = False
+35.1816 	EXP 	show_condition_text: text = 'influence'
+35.1816 	EXP 	show_condition_text: autoDraw = True
+35.1821 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'discussing')])
+35.2137 	EXP 	show_condition_text: autoDraw = False
+35.2137 	EXP 	show_condition_text: text = 'discussing'
+35.2137 	EXP 	show_condition_text: autoDraw = True
+35.2142 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'blend')])
+35.2300 	EXP 	show_condition_text: autoDraw = False
+35.2300 	EXP 	show_condition_text: text = 'blend'
+35.2300 	EXP 	show_condition_text: autoDraw = True
+35.2305 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'think')])
+35.2473 	EXP 	show_condition_text: autoDraw = False
+35.2473 	EXP 	show_condition_text: text = 'think'
+35.2473 	EXP 	show_condition_text: autoDraw = True
+35.2478 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'alpha')])
+35.2641 	EXP 	show_condition_text: autoDraw = False
+35.2641 	EXP 	show_condition_text: text = 'alpha'
+35.2641 	EXP 	show_condition_text: autoDraw = True
+35.2646 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'nasty')])
+35.2824 	EXP 	show_condition_text: autoDraw = False
+35.2824 	EXP 	show_condition_text: text = 'nasty'
+35.2824 	EXP 	show_condition_text: autoDraw = True
+35.2829 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'urls')])
+35.2995 	EXP 	show_condition_text: autoDraw = False
+35.2995 	EXP 	show_condition_text: text = 'urls'
+35.2995 	EXP 	show_condition_text: autoDraw = True
+35.3000 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'analyst')])
+35.3170 	EXP 	show_condition_text: autoDraw = False
+35.3170 	EXP 	show_condition_text: text = 'analyst'
+35.3170 	EXP 	show_condition_text: autoDraw = True
+35.3175 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'port')])
+35.3344 	EXP 	show_condition_text: autoDraw = False
+35.3344 	EXP 	show_condition_text: text = 'port'
+35.3344 	EXP 	show_condition_text: autoDraw = True
+35.3495 	EXP 	show_condition_text: autoDraw = False
+35.3495 	EXP 	show_condition_text: text = '****'
+35.3495 	EXP 	show_condition_text: autoDraw = True
+35.3630 	EXP 	show_condition_text: text = '****'
+35.3630 	EXP 	show_condition_text: autoDraw = True
+35.3800 	EXP 	show_condition_text: text = '****'
+35.3800 	EXP 	show_condition_text: autoDraw = True
+35.3968 	EXP 	show_condition_text: text = '****'
+35.3968 	EXP 	show_condition_text: autoDraw = True
+35.4129 	EXP 	show_condition_text: text = '****'
+35.4129 	EXP 	show_condition_text: autoDraw = True
+35.4291 	EXP 	show_condition_text: text = '****'
+35.4291 	EXP 	show_condition_text: autoDraw = True
+35.4467 	EXP 	show_condition_text: text = '****'
+35.4467 	EXP 	show_condition_text: autoDraw = True
+35.4633 	EXP 	show_condition_text: text = '****'
+35.4633 	EXP 	show_condition_text: autoDraw = True
+35.4799 	EXP 	show_condition_text: text = '****'
+35.4799 	EXP 	show_condition_text: autoDraw = True
+35.4969 	EXP 	show_condition_text: text = '****'
+35.4969 	EXP 	show_condition_text: autoDraw = True
+35.5131 	EXP 	show_condition_text: text = '****'
+35.5131 	EXP 	show_condition_text: autoDraw = True
+35.5159 	DATA 	Keypress: space
+35.5300 	EXP 	show_condition_text: text = '****'
+35.5300 	EXP 	show_condition_text: autoDraw = True
+35.5461 	EXP 	show_condition_text: text = '****'
+35.5461 	EXP 	show_condition_text: autoDraw = True
+35.5632 	EXP 	show_condition_text: text = '****'
+35.5632 	EXP 	show_condition_text: autoDraw = True
+35.5796 	EXP 	show_condition_text: text = '****'
+35.5796 	EXP 	show_condition_text: autoDraw = True
+35.5968 	EXP 	show_condition_text: text = '****'
+35.5968 	EXP 	show_condition_text: autoDraw = True
+35.6134 	EXP 	show_condition_text: text = '****'
+35.6134 	EXP 	show_condition_text: autoDraw = True
+35.6295 	EXP 	show_condition_text: text = '****'
+35.6295 	EXP 	show_condition_text: autoDraw = True
+35.6464 	EXP 	show_condition_text: text = '****'
+35.6464 	EXP 	show_condition_text: autoDraw = True
+35.6636 	EXP 	New trial (rep=0, index=6): OrderedDict([('wlist_index', 20)])
+35.6673 	EXP 	Imported csvs/20.csv as conditions, 8 conditions, 1 params
+35.6677 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+35.6678 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'acts')])
+35.6840 	EXP 	show_condition_text: text = 'acts'
+35.6840 	EXP 	show_condition_text: autoDraw = True
+35.6846 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'services')])
+35.7136 	EXP 	show_condition_text: autoDraw = False
+35.7136 	EXP 	show_condition_text: text = 'services'
+35.7136 	EXP 	show_condition_text: autoDraw = True
+35.7141 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'bacterial')])
+35.7328 	EXP 	show_condition_text: autoDraw = False
+35.7328 	EXP 	show_condition_text: text = 'bacterial'
+35.7328 	EXP 	show_condition_text: autoDraw = True
+35.7333 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'territories')])
+35.7629 	EXP 	show_condition_text: autoDraw = False
+35.7629 	EXP 	show_condition_text: text = 'territories'
+35.7629 	EXP 	show_condition_text: autoDraw = True
+35.7634 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'cumshots')])
+35.7823 	EXP 	show_condition_text: autoDraw = False
+35.7823 	EXP 	show_condition_text: text = 'cumshots'
+35.7823 	EXP 	show_condition_text: autoDraw = True
+35.7828 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'waiver')])
+35.8000 	EXP 	show_condition_text: autoDraw = False
+35.8000 	EXP 	show_condition_text: text = 'waiver'
+35.8000 	EXP 	show_condition_text: autoDraw = True
+35.8004 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'requests')])
+35.8300 	EXP 	show_condition_text: autoDraw = False
+35.8300 	EXP 	show_condition_text: text = 'requests'
+35.8300 	EXP 	show_condition_text: autoDraw = True
+35.8304 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'cooking')])
+35.8466 	EXP 	show_condition_text: autoDraw = False
+35.8466 	EXP 	show_condition_text: text = 'cooking'
+35.8466 	EXP 	show_condition_text: autoDraw = True
+35.8634 	EXP 	show_condition_text: autoDraw = False
+35.8634 	EXP 	show_condition_text: text = '****'
+35.8634 	EXP 	show_condition_text: autoDraw = True
+35.8794 	EXP 	show_condition_text: text = '****'
+35.8794 	EXP 	show_condition_text: autoDraw = True
+35.8965 	EXP 	show_condition_text: text = '****'
+35.8965 	EXP 	show_condition_text: autoDraw = True
+35.9135 	EXP 	show_condition_text: text = '****'
+35.9135 	EXP 	show_condition_text: autoDraw = True
+35.9300 	EXP 	show_condition_text: text = '****'
+35.9300 	EXP 	show_condition_text: autoDraw = True
+35.9467 	EXP 	show_condition_text: text = '****'
+35.9467 	EXP 	show_condition_text: autoDraw = True
+35.9626 	EXP 	show_condition_text: text = '****'
+35.9626 	EXP 	show_condition_text: autoDraw = True
+35.9795 	EXP 	show_condition_text: text = '****'
+35.9795 	EXP 	show_condition_text: autoDraw = True
+35.9964 	EXP 	show_condition_text: text = '****'
+35.9964 	EXP 	show_condition_text: autoDraw = True
+36.0137 	EXP 	show_condition_text: text = '****'
+36.0137 	EXP 	show_condition_text: autoDraw = True
+36.0301 	EXP 	show_condition_text: text = '****'
+36.0301 	EXP 	show_condition_text: autoDraw = True
+36.0465 	EXP 	show_condition_text: text = '****'
+36.0465 	EXP 	show_condition_text: autoDraw = True
+36.0633 	EXP 	show_condition_text: text = '****'
+36.0633 	EXP 	show_condition_text: autoDraw = True
+36.0800 	EXP 	show_condition_text: text = '****'
+36.0800 	EXP 	show_condition_text: autoDraw = True
+36.0962 	EXP 	show_condition_text: text = '****'
+36.0962 	EXP 	show_condition_text: autoDraw = True
+36.0988 	DATA 	Keypress: space
+36.1130 	EXP 	show_condition_text: text = '****'
+36.1130 	EXP 	show_condition_text: autoDraw = True
+36.1300 	EXP 	show_condition_text: text = '****'
+36.1300 	EXP 	show_condition_text: autoDraw = True
+36.1460 	EXP 	show_condition_text: text = '****'
+36.1460 	EXP 	show_condition_text: autoDraw = True
+36.1625 	EXP 	show_condition_text: text = '****'
+36.1625 	EXP 	show_condition_text: autoDraw = True
+36.1794 	EXP 	show_condition_text: text = '****'
+36.1794 	EXP 	show_condition_text: autoDraw = True
+36.1962 	EXP 	show_condition_text: text = '****'
+36.1962 	EXP 	show_condition_text: autoDraw = True
+36.2134 	EXP 	show_condition_text: text = '****'
+36.2134 	EXP 	show_condition_text: autoDraw = True
+36.2297 	EXP 	show_condition_text: text = '****'
+36.2297 	EXP 	show_condition_text: autoDraw = True
+36.2468 	EXP 	New trial (rep=0, index=7): OrderedDict([('wlist_index', 23)])
+36.2508 	EXP 	Imported csvs/23.csv as conditions, 6 conditions, 1 params
+36.2511 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+36.2513 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'shelf')])
+36.2800 	EXP 	show_condition_text: text = 'shelf'
+36.2800 	EXP 	show_condition_text: autoDraw = True
+36.2805 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'sponsors')])
+36.2991 	EXP 	show_condition_text: autoDraw = False
+36.2991 	EXP 	show_condition_text: text = 'sponsors'
+36.2991 	EXP 	show_condition_text: autoDraw = True
+36.2995 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'info')])
+36.3156 	EXP 	show_condition_text: autoDraw = False
+36.3156 	EXP 	show_condition_text: text = 'info'
+36.3156 	EXP 	show_condition_text: autoDraw = True
+36.3161 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'efficient')])
+36.3462 	EXP 	show_condition_text: autoDraw = False
+36.3462 	EXP 	show_condition_text: text = 'efficient'
+36.3462 	EXP 	show_condition_text: autoDraw = True
+36.3467 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'horror')])
+36.3630 	EXP 	show_condition_text: autoDraw = False
+36.3630 	EXP 	show_condition_text: text = 'horror'
+36.3630 	EXP 	show_condition_text: autoDraw = True
+36.3634 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'easy')])
+36.3800 	EXP 	show_condition_text: autoDraw = False
+36.3800 	EXP 	show_condition_text: text = 'easy'
+36.3800 	EXP 	show_condition_text: autoDraw = True
+36.3969 	EXP 	show_condition_text: autoDraw = False
+36.3969 	EXP 	show_condition_text: text = '****'
+36.3969 	EXP 	show_condition_text: autoDraw = True
+36.4134 	EXP 	show_condition_text: text = '****'
+36.4134 	EXP 	show_condition_text: autoDraw = True
+36.4291 	EXP 	show_condition_text: text = '****'
+36.4291 	EXP 	show_condition_text: autoDraw = True
+36.4466 	EXP 	show_condition_text: text = '****'
+36.4466 	EXP 	show_condition_text: autoDraw = True
+36.4631 	EXP 	show_condition_text: text = '****'
+36.4631 	EXP 	show_condition_text: autoDraw = True
+36.4796 	EXP 	show_condition_text: text = '****'
+36.4796 	EXP 	show_condition_text: autoDraw = True
+36.4968 	EXP 	show_condition_text: text = '****'
+36.4968 	EXP 	show_condition_text: autoDraw = True
+36.5132 	EXP 	show_condition_text: text = '****'
+36.5132 	EXP 	show_condition_text: autoDraw = True
+36.5296 	EXP 	show_condition_text: text = '****'
+36.5296 	EXP 	show_condition_text: autoDraw = True
+36.5465 	EXP 	show_condition_text: text = '****'
+36.5465 	EXP 	show_condition_text: autoDraw = True
+36.5635 	EXP 	show_condition_text: text = '****'
+36.5635 	EXP 	show_condition_text: autoDraw = True
+36.5801 	EXP 	show_condition_text: text = '****'
+36.5801 	EXP 	show_condition_text: autoDraw = True
+36.5962 	EXP 	show_condition_text: text = '****'
+36.5962 	EXP 	show_condition_text: autoDraw = True
+36.6134 	EXP 	show_condition_text: text = '****'
+36.6134 	EXP 	show_condition_text: autoDraw = True
+36.6290 	EXP 	show_condition_text: text = '****'
+36.6290 	EXP 	show_condition_text: autoDraw = True
+36.6464 	EXP 	show_condition_text: text = '****'
+36.6464 	EXP 	show_condition_text: autoDraw = True
+36.6490 	DATA 	Keypress: space
+36.6634 	EXP 	show_condition_text: text = '****'
+36.6634 	EXP 	show_condition_text: autoDraw = True
+36.6800 	EXP 	show_condition_text: text = '****'
+36.6800 	EXP 	show_condition_text: autoDraw = True
+36.6966 	EXP 	show_condition_text: text = '****'
+36.6966 	EXP 	show_condition_text: autoDraw = True
+36.7134 	EXP 	show_condition_text: text = '****'
+36.7134 	EXP 	show_condition_text: autoDraw = True
+36.7304 	EXP 	show_condition_text: text = '****'
+36.7304 	EXP 	show_condition_text: autoDraw = True
+36.7464 	EXP 	show_condition_text: text = '****'
+36.7464 	EXP 	show_condition_text: autoDraw = True
+36.7628 	EXP 	show_condition_text: text = '****'
+36.7628 	EXP 	show_condition_text: autoDraw = True
+37.1393 	EXP 	window1: mouseVisible = True
