@@ -20,10 +20,10 @@ class Timer:
         self.start_now = True
 
     def record_start_time(self):
-        self.win.timeOnFlip(self.times, 'start_time')
+            self.win.timeOnFlip(self.times, 'start_time')
 
     def record_end_time(self):
-        self.win.timeOnFlip(self.times, 'end_time')
+            self.win.timeOnFlip(self.times, 'end_time')
 
     @property
     def end_now(self):
