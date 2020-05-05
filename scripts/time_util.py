@@ -27,10 +27,12 @@ class Timer:
 
     @property
     def end_now(self):
+        self.start_now = False
         return self.keyboard.getKeys(keyList=['space'])
 
     @property
     def quit_now(self):
+        self.start_now = False
         return self.keyboard.getKeys(keyList=['escape'])
 
     def run_start_procedure(self, start_func):
